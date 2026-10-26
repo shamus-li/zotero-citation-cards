@@ -1,0 +1,2447 @@
+{
+ "id": "https://openalex.org/W3036167779",
+ "doi": "https://doi.org/10.48550/arxiv.2006.11239",
+ "title": "Denoising Diffusion Probabilistic Models",
+ "publication_year": 2020,
+ "cited_by_count": 8703,
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5053018827",
+    "display_name": "Jonathan Ho",
+    "orcid": "https://orcid.org/0000-0003-4010-5256",
+    "observed_orcids": [
+     "https://orcid.org/0000-0003-4010-5256"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I95457486",
+     "display_name": "University of California, Berkeley",
+     "ror": "https://ror.org/01an7q238",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I95457486"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Ho, Jonathan",
+   "raw_affiliation_strings": [
+    "University of California–Berkeley"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "University of California–Berkeley",
+     "institution_ids": [
+      "https://openalex.org/I95457486"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": null,
+    "display_name": "Jain, Ajay",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I95457486",
+     "display_name": "University of California, Berkeley",
+     "ror": "https://ror.org/01an7q238",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I95457486"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Jain, Ajay",
+   "raw_affiliation_strings": [
+    "University of California–Berkeley"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "University of California–Berkeley",
+     "institution_ids": [
+      "https://openalex.org/I95457486"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5049349154",
+    "display_name": "Pieter Abbeel",
+    "orcid": "https://orcid.org/0009-0007-0628-9932",
+    "observed_orcids": [
+     "https://orcid.org/0009-0007-0628-9932"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I95457486",
+     "display_name": "University of California, Berkeley",
+     "ror": "https://ror.org/01an7q238",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I95457486"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Abbeel, Pieter",
+   "raw_affiliation_strings": [
+    "University of California–Berkeley"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "University of California–Berkeley",
+     "institution_ids": [
+      "https://openalex.org/I95457486"
+     ]
+    }
+   ]
+  }
+ ],
+ "primary_location": {
+  "id": "pmh:oai:arXiv.org:2006.11239",
+  "doi": null,
+  "is_oa": true,
+  "landing_page_url": "http://arxiv.org/abs/2006.11239",
+  "pdf_url": "https://arxiv.org/pdf/2006.11239",
+  "source": {
+   "id": "https://openalex.org/S4306400194",
+   "display_name": "arXiv (Cornell University)",
+   "issn_l": "2331-8422",
+   "issn": [
+    "2331-8422"
+   ],
+   "is_oa": true,
+   "is_in_doaj": false,
+   "is_core": false,
+   "listed_in": [],
+   "host_organization": "https://openalex.org/I205783295",
+   "host_organization_name": "Cornell University",
+   "host_organization_lineage": [
+    "https://openalex.org/I205783295"
+   ],
+   "host_organization_lineage_names": [],
+   "type": "repository"
+  },
+  "license": null,
+  "license_id": null,
+  "version": "submittedVersion",
+  "is_accepted": false,
+  "is_published": false,
+  "raw_source_name": null,
+  "raw_type": "text"
+ },
+ "best_oa_location": {
+  "id": "pmh:oai:arXiv.org:2006.11239",
+  "doi": null,
+  "is_oa": true,
+  "landing_page_url": "http://arxiv.org/abs/2006.11239",
+  "pdf_url": "https://arxiv.org/pdf/2006.11239",
+  "source": {
+   "id": "https://openalex.org/S4306400194",
+   "display_name": "arXiv (Cornell University)",
+   "issn_l": "2331-8422",
+   "issn": [
+    "2331-8422"
+   ],
+   "is_oa": true,
+   "is_in_doaj": false,
+   "is_core": false,
+   "listed_in": [],
+   "host_organization": "https://openalex.org/I205783295",
+   "host_organization_name": "Cornell University",
+   "host_organization_lineage": [
+    "https://openalex.org/I205783295"
+   ],
+   "host_organization_lineage_names": [],
+   "type": "repository"
+  },
+  "license": null,
+  "license_id": null,
+  "version": "submittedVersion",
+  "is_accepted": false,
+  "is_published": false,
+  "raw_source_name": null,
+  "raw_type": "text"
+ },
+ "abstract_inverted_index": {
+  "DiffuCpG": [
+   0
+  ],
+  "1.": [
+   1
+  ],
+  "Introduction": [
+   2
+  ],
+  "In": [
+   3,
+   115
+  ],
+  "this": [
+   4,
+   116
+  ],
+  "study,": [
+   5
+  ],
+  "we": [
+   6,
+   118
+  ],
+  "used": [
+   7,
+   122,
+   583
+  ],
+  "a": [
+   8,
+   77,
+   137,
+   251,
+   256,
+   271,
+   390,
+   434,
+   469,
+   570,
+   672,
+   701,
+   725,
+   731,
+   743,
+   834,
+   919,
+   994
+  ],
+  "generative": [
+   9
+  ],
+  "AI": [
+   10
+  ],
+  "diffusion": [
+   11,
+   126,
+   138,
+   429,
+   462
+  ],
+  "model": [
+   12,
+   21,
+   139,
+   425,
+   665,
+   996,
+   1014
+  ],
+  "to": [
+   13,
+   123,
+   133,
+   191,
+   269,
+   316,
+   442,
+   451,
+   466,
+   512,
+   617,
+   619,
+   637,
+   658,
+   776,
+   816,
+   868,
+   890,
+   895,
+   905,
+   917,
+   933,
+   949,
+   973,
+   990,
+   1054,
+   1074,
+   1097,
+   1149
+  ],
+  "address": [
+   14
+  ],
+  "missing": [
+   15,
+   748,
+   846,
+   879
+  ],
+  "methylation": [
+   16,
+   58,
+   113,
+   141,
+   422,
+   559,
+   571,
+   608,
+   673,
+   678,
+   722,
+   735,
+   745,
+   839,
+   847
+  ],
+  "data.": [
+   17,
+   423,
+   723
+  ],
+  "We": [
+   18
+  ],
+  "trained": [
+   19
+  ],
+  "the": [
+   20,
+   55,
+   120,
+   125,
+   151,
+   167,
+   228,
+   231,
+   266,
+   427,
+   431,
+   461,
+   491,
+   505,
+   509,
+   514,
+   525,
+   564,
+   590,
+   602,
+   621,
+   626,
+   630,
+   650,
+   710,
+   714,
+   718,
+   721,
+   734,
+   773,
+   791,
+   794,
+   805,
+   838,
+   866,
+   964,
+   970,
+   998,
+   1004,
+   1007,
+   1013,
+   1106,
+   1163,
+   1167
+  ],
+  "with": [
+   22,
+   36,
+   129,
+   159,
+   183,
+   195,
+   333,
+   873
+  ],
+  "Whole-Genome": [
+   23
+  ],
+  "Bisulfite": [
+   24,
+   39,
+   64
+  ],
+  "Sequencing": [
+   25,
+   40,
+   65
+  ],
+  "data": [
+   26,
+   41,
+   53,
+   263,
+   274,
+   282,
+   545,
+   613,
+   736,
+   746,
+   760,
+   826
+  ],
+  "from": [
+   27,
+   42,
+   54,
+   700,
+   871,
+   915,
+   952
+  ],
+  "26": [
+   28
+  ],
+  "acute": [
+   29
+  ],
+  "myeloid": [
+   30
+  ],
+  "leukemia": [
+   31
+  ],
+  "samples": [
+   32,
+   194,
+   660,
+   856,
+   932,
+   940,
+   951,
+   1109
+  ],
+  "and": [
+   33,
+   46,
+   60,
+   86,
+   98,
+   104,
+   111,
+   135,
+   173,
+   198,
+   218,
+   406,
+   444,
+   488,
+   537,
+   546,
+   552,
+   579,
+   610,
+   663,
+   670,
+   693,
+   783,
+   801,
+   812,
+   857,
+   983,
+   992
+  ],
+  "validated": [
+   34
+  ],
+  "it": [
+   35,
+   642,
+   739,
+   1020
+  ],
+  "Reduced": [
+   37,
+   62
+  ],
+  "Representation": [
+   38,
+   63
+  ],
+  "93": [
+   43
+  ],
+  "myelodysplastic": [
+   44
+  ],
+  "syndrome": [
+   45
+  ],
+  "13": [
+   47
+  ],
+  "normal": [
+   48
+  ],
+  "samples.": [
+   49
+  ],
+  "Additional": [
+   50
+  ],
+  "testing": [
+   51,
+   696,
+   784,
+   861
+  ],
+  "included": [
+   52
+  ],
+  "Illumina": [
+   56
+  ],
+  "450k": [
+   57
+  ],
+  "array": [
+   59,
+   674,
+   679
+  ],
+  "Single-Cell": [
+   61
+  ],
+  "on": [
+   66,
+   490,
+   1100
+  ],
+  "HepG2": [
+   67
+  ],
+  "cells.": [
+   68
+  ],
+  "Our": [
+   69
+  ],
+  "model,": [
+   70,
+   430
+  ],
+  "DiffuCpG,": [
+   71
+  ],
+  "outperformed": [
+   72
+  ],
+  "previous": [
+   73
+  ],
+  "methods": [
+   74
+  ],
+  "by": [
+   75
+  ],
+  "integrating": [
+   76
+  ],
+  "broader": [
+   78
+  ],
+  "range": [
+   79,
+   967
+  ],
+  "of": [
+   80,
+   348,
+   385,
+   458,
+   479,
+   601,
+   804,
+   922,
+   931,
+   1029,
+   1039,
+   1124,
+   1134
+  ],
+  "genomic": [
+   81
+  ],
+  "features,": [
+   82
+  ],
+  "utilizing": [
+   83
+  ],
+  "both": [
+   84,
+   109
+  ],
+  "short-": [
+   85
+  ],
+  "long-range": [
+   87,
+   953,
+   977
+  ],
+  "interactions": [
+   88,
+   959
+  ],
+  "without": [
+   89
+  ],
+  "increasing": [
+   90
+  ],
+  "input": [
+   91,
+   193,
+   262,
+   273
+  ],
+  "complexity.": [
+   92
+  ],
+  "It": [
+   93,
+   594
+  ],
+  "demonstrated": [
+   94
+  ],
+  "superior": [
+   95
+  ],
+  "accuracy,": [
+   96
+  ],
+  "scalability,": [
+   97
+  ],
+  "versatility": [
+   99
+  ],
+  "across": [
+   100
+  ],
+  "various": [
+   101
+  ],
+  "tissues,": [
+   102
+  ],
+  "diseases,": [
+   103
+  ],
+  "technologies,": [
+   105
+  ],
+  "providing": [
+   106
+  ],
+  "predictions": [
+   107
+  ],
+  "in": [
+   108,
+   223,
+   227,
+   389,
+   460,
+   529,
+   563,
+   586,
+   604,
+   625,
+   691,
+   772,
+   790,
+   833,
+   969
+  ],
+  "binary": [
+   110
+  ],
+  "continuous": [
+   112
+  ],
+  "states.": [
+   114
+  ],
+  "repository,": [
+   117
+  ],
+  "deposit": [
+   119
+  ],
+  "code": [
+   121,
+   484
+  ],
+  "build": [
+   124
+  ],
+  "models": [
+   127,
+   211
+  ],
+  "along": [
+   128
+  ],
+  "necessary": [
+   130,
+   544
+  ],
+  "example": [
+   131,
+   190,
+   272,
+   417,
+   769,
+   965
+  ],
+  "datasets": [
+   132,
+   409,
+   418,
+   780
+  ],
+  "train": [
+   134,
+   991
+  ],
+  "test": [
+   136,
+   993
+  ],
+  "for": [
+   140,
+   214,
+   360,
+   401,
+   412,
+   437,
+   446,
+   584,
+   633,
+   661,
+   738,
+   751,
+   781,
+   853,
+   859,
+   980,
+   1065,
+   1087,
+   1110
+  ],
+  "imputation": [
+   142,
+   1099
+  ],
+  "purposes.": [
+   143
+  ],
+  "Docker": [
+   144,
+   147,
+   149,
+   181,
+   240
+  ],
+  "Usage": [
+   145
+  ],
+  "Install": [
+   146,
+   148
+  ],
+  "using": [
+   150,
+   414,
+   997
+  ],
+  "following": [
+   152,
+   267,
+   398,
+   492,
+   510,
+   526,
+   1168
+  ],
+  "link:https://docs.docker.com/engine/install/Recommended": [
+   153
+  ],
+  "system": [
+   154
+  ],
+  "specs:": [
+   155
+  ],
+  "Debian": [
+   156,
+   497
+  ],
+  "12": [
+   157,
+   499
+  ],
+  "bookworm": [
+   158,
+   502
+  ],
+  "16GB": [
+   160,
+   478
+  ],
+  "RAM": [
+   161,
+   480
+  ],
+  "or": [
+   162,
+   296,
+   309,
+   322,
+   343,
+   749,
+   822,
+   828,
+   841,
+   884,
+   899,
+   911,
+   928,
+   938,
+   960,
+   1001,
+   1010,
+   1024,
+   1035,
+   1042,
+   1059,
+   1070,
+   1083,
+   1103,
+   1112,
+   1119,
+   1130,
+   1137,
+   1160
+  ],
+  "more.Make": [
+   163
+  ],
+  "sure": [
+   164,
+   522
+  ],
+  "you": [
+   165,
+   247,
+   523,
+   615,
+   635,
+   1046,
+   1141,
+   1156
+  ],
+  "have": [
+   166,
+   250,
+   524,
+   918,
+   1047,
+   1142,
+   1157
+  ],
+  "latest": [
+   168
+  ],
+  "Nvidia": [
+   169,
+   178
+  ],
+  "GPU": [
+   170,
+   252
+  ],
+  "driver": [
+   171
+  ],
+  "installed": [
+   172,
+   528
+  ],
+  "docker": [
+   174,
+   186,
+   244,
+   306
+  ],
+  "can": [
+   175,
+   666,
+   761
+  ],
+  "access": [
+   176
+  ],
+  "your": [
+   177,
+   261,
+   281,
+   326,
+   530,
+   639,
+   778,
+   975
+  ],
+  "GPU.": [
+   179
+  ],
+  "Run": [
+   180,
+   230,
+   239,
+   508,
+   535
+  ],
+  "images": [
+   182,
+   241
+  ],
+  "Tissue-specific": [
+   184
+  ],
+  "Models": [
+   185,
+   243,
+   407
+  ],
+  "pull": [
+   187,
+   245,
+   255,
+   259
+  ],
+  "yay135/diffucpg_tssUse": [
+   188
+  ],
+  "our": [
+   189,
+   587
+  ],
+  "generate": [
+   192,
+   659,
+   914,
+   934,
+   950
+  ],
+  "Hi-C": [
+   196,
+   958
+  ],
+  "matrix": [
+   197
+  ],
+  "CIS": [
+   199
+  ],
+  "(Confidence": [
+   200
+  ],
+  "Interval": [
+   201
+  ],
+  "Cross": [
+   202
+  ],
+  "Sample)": [
+   203
+  ],
+  "data.docker": [
+   204
+  ],
+  "run": [
+   205,
+   235,
+   276,
+   288,
+   298,
+   317,
+   367
+  ],
+  "-it": [
+   206,
+   236
+  ],
+  "yay135/diffucpg_tssthenpython": [
+   207,
+   237
+  ],
+  "generate_train_test_samples.py": [
+   208
+  ],
+  "The": [
+   209,
+   397,
+   416,
+   424,
+   456,
+   483,
+   558,
+   573,
+   581,
+   599
+  ],
+  "tissue-specific": [
+   210
+  ],
+  "(pytorch)": [
+   212
+  ],
+  "are": [
+   213,
+   221,
+   400,
+   410,
+   562,
+   577,
+   607,
+   629,
+   798,
+   807
+  ],
+  "CD34+": [
+   215
+  ],
+  "cells,": [
+   216
+  ],
+  "GBM": [
+   217
+  ],
+  "BRCA,": [
+   219
+  ],
+  "they": [
+   220
+  ],
+  "stored": [
+   222
+  ],
+  "folders": [
+   224
+  ],
+  "named": [
+   225
+  ],
+  "\"model*\"": [
+   226
+  ],
+  "image.": [
+   229
+  ],
+  "Tissue": [
+   232
+  ],
+  "specific": [
+   233
+  ],
+  "modelsdocker": [
+   234
+  ],
+  "batch_run.py": [
+   238
+  ],
+  "Example": [
+   242,
+   408
+  ],
+  "yay135/diffucpgIf": [
+   246
+  ],
+  "do": [
+   248
+  ],
+  "not": [
+   249,
+   667,
+   730,
+   1022
+  ],
+  "enabled": [
+   253
+  ],
+  "system,": [
+   254
+  ],
+  "CPU-only": [
+   257
+  ],
+  "imagedocker": [
+   258
+  ],
+  "yay135/diffucpg_cpuprepare": [
+   260
+  ],
+  "directory,": [
+   264
+  ],
+  "use": [
+   265,
+   452,
+   638,
+   896,
+   1075
+  ],
+  "command": [
+   268,
+   511
+  ],
+  "print": [
+   270
+  ],
+  "directorydocker": [
+   275
+  ],
+  "--rm": [
+   277,
+   293,
+   303,
+   372
+  ],
+  "yay135/diffucpg": [
+   278,
+   304,
+   373
+  ],
+  "-e": [
+   279
+  ],
+  "trueassume": [
+   280
+  ],
+  "directory": [
+   283
+  ],
+  "name": [
+   284
+  ],
+  "is": [
+   285,
+   320,
+   341,
+   365,
+   392,
+   426,
+   464,
+   476,
+   481,
+   485,
+   569,
+   589,
+   595,
+   680,
+   686,
+   698,
+   713,
+   720,
+   729,
+   740,
+   747,
+   755,
+   837,
+   849,
+   893,
+   908,
+   925,
+   944,
+   1033,
+   1057,
+   1068,
+   1081,
+   1091,
+   1128,
+   1152
+  ],
+  "\"input_data\"in": [
+   286
+  ],
+  "windowsdocker": [
+   287
+  ],
+  "--gpus": [
+   289,
+   299,
+   368
+  ],
+  "all": [
+   290,
+   300,
+   369,
+   897
+  ],
+  "-v": [
+   291,
+   301,
+   370
+  ],
+  ".\\input_data\\:/data": [
+   292
+  ],
+  "yay135/diffucpgin": [
+   294
+  ],
+  "unix": [
+   295
+  ],
+  "linuxdocker": [
+   297
+  ],
+  "./input_data:/data": [
+   302,
+   371
+  ],
+  "Other": [
+   305,
+   758
+  ],
+  "options": [
+   307
+  ],
+  "-d": [
+   308,
+   374
+  ],
+  "--device": [
+   310
+  ],
+  ":": [
+   311,
+   324,
+   345,
+   830,
+   843,
+   886,
+   901,
+   1003,
+   1012,
+   1026,
+   1044,
+   1061,
+   1072,
+   1085,
+   1105,
+   1121,
+   1139
+  ],
+  "select": [
+   312,
+   870,
+   1051,
+   1146
+  ],
+  "which": [
+   313,
+   831,
+   888,
+   1052,
+   1147
+  ],
+  "cuda": [
+   314,
+   380,
+   1049,
+   1144
+  ],
+  "device": [
+   315,
+   381
+  ],
+  "with,": [
+   318
+  ],
+  "default": [
+   319,
+   340,
+   364,
+   892,
+   907,
+   924,
+   943,
+   1032,
+   1056,
+   1067,
+   1080,
+   1090,
+   1127,
+   1151
+  ],
+  "0-m": [
+   321
+  ],
+  "--mingcpg": [
+   323
+  ],
+  "scan": [
+   325
+  ],
+  "methyl": [
+   327,
+   338,
+   387
+  ],
+  "array,": [
+   328
+  ],
+  "limit": [
+   329,
+   887
+  ],
+  "only": [
+   330,
+   419,
+   869
+  ],
+  "imputing": [
+   331
+  ],
+  "windows": [
+   332,
+   872,
+   955,
+   979
+  ],
+  "at": [
+   334,
+   706
+  ],
+  "least": [
+   335,
+   707
+  ],
+  "m": [
+   336
+  ],
+  "non-missing": [
+   337,
+   386
+  ],
+  "values,": [
+   339
+  ],
+  "m=10-o": [
+   342
+  ],
+  "--overlap": [
+   344
+  ],
+  "set": [
+   346,
+   465
+  ],
+  "number": [
+   347,
+   384,
+   457,
+   921,
+   930
+  ],
+  "impute": [
+   349,
+   671
+  ],
+  "epochs,": [
+   350,
+   355
+  ],
+  "shift": [
+   351
+  ],
+  "window": [
+   352,
+   391,
+   685,
+   903,
+   916,
+   1027,
+   1122
+  ],
+  "locations": [
+   353
+  ],
+  "between": [
+   354
+  ],
+  "get": [
+   356
+  ],
+  "mean": [
+   357
+  ],
+  "imputed": [
+   358,
+   1114
+  ],
+  "values": [
+   359,
+   388
+  ],
+  "each": [
+   361,
+   567,
+   605,
+   677,
+   684,
+   694,
+   787,
+   817,
+   1030,
+   1040,
+   1125,
+   1135
+  ],
+  "CpG": [
+   362,
+   732
+  ],
+  "location,": [
+   363,
+   733
+  ],
+  "2example:docker": [
+   366
+  ],
+  "1": [
+   375
+  ],
+  "-m": [
+   376
+  ],
+  "5": [
+   377,
+   708
+  ],
+  "-o": [
+   378
+  ],
+  "3use": [
+   379
+  ],
+  "1,": [
+   382
+  ],
+  "min": [
+   383
+  ],
+  "5,": [
+   393
+  ],
+  "overlap": [
+   394
+  ],
+  "epochs": [
+   395,
+   1064
+  ],
+  "3": [
+   396,
+   796
+  ],
+  "tutorials": [
+   399
+  ],
+  "non-docker": [
+   402
+  ],
+  "usages.": [
+   403
+  ],
+  "2.": [
+   404
+  ],
+  "Data": [
+   405,
+   551,
+   557
+  ],
+  "available": [
+   411
+  ],
+  "download": [
+   413,
+   543
+  ],
+  "\"gdown.sh\".": [
+   415
+  ],
+  "contain": [
+   420
+  ],
+  "WGBS": [
+   421
+  ],
+  "DDPM": [
+   428,
+   995
+  ],
+  "repository": [
+   432
+  ],
+  "contains": [
+   433,
+   705
+  ],
+  "complete": [
+   435
+  ],
+  "implementation": [
+   436
+  ],
+  "1-dimensional": [
+   438
+  ],
+  "input.": [
+   439
+  ],
+  "Please": [
+   440
+  ],
+  "refer": [
+   441
+  ],
+  "https://arxiv.org/abs/2006.11239": [
+   443
+  ],
+  "https://huggingface.co/blog/annotated-diffusion": [
+   445
+  ],
+  "more": [
+   447
+  ],
+  "details.": [
+   448
+  ],
+  "3.": [
+   449
+  ],
+  "How": [
+   450
+  ],
+  "3.1": [
+   453
+  ],
+  "System": [
+   454
+  ],
+  "Requirements": [
+   455
+  ],
+  "steps": [
+   459
+  ],
+  "process": [
+   463
+  ],
+  "2000.": [
+   467
+  ],
+  "Imputing": [
+   468
+  ],
+  "sample": [
+   470,
+   697,
+   704,
+   785,
+   818,
+   981
+  ],
+  "requires": [
+   471
+  ],
+  "2000": [
+   472
+  ],
+  "steps.": [
+   473
+  ],
+  "Gpu": [
+   474
+  ],
+  "acceleration": [
+   475
+  ],
+  "preferred.": [
+   477
+  ],
+  "required.": [
+   482
+  ],
+  "fully": [
+   486
+  ],
+  "tested": [
+   487
+  ],
+  "operational": [
+   489
+  ],
+  "platform:": [
+   493
+  ],
+  "Distributor": [
+   494
+  ],
+  "ID:": [
+   495
+  ],
+  "DebianDescription:": [
+   496
+  ],
+  "GNU/Linux": [
+   498
+  ],
+  "(bookworm)Release:": [
+   500
+  ],
+  "12Codename:": [
+   501
+  ],
+  "3.2": [
+   503
+  ],
+  "Clone": [
+   504
+  ],
+  "Current": [
+   506
+  ],
+  "Project": [
+   507
+  ],
+  "clone": [
+   513,
+   516
+  ],
+  "project.git": [
+   515
+  ],
+  "https://github.com/yay135/DiffuCpG.git": [
+   517
+  ],
+  "3.4": [
+   518,
+   534
+  ],
+  "Configure": [
+   519
+  ],
+  "Environment": [
+   520
+  ],
+  "Make": [
+   521
+  ],
+  "software": [
+   527
+  ],
+  "system:Python": [
+   531
+  ],
+  "3.9+Pytorch": [
+   532
+  ],
+  "2.0.1+": [
+   533
+  ],
+  "Training": [
+   536,
+   986
+  ],
+  "Testing": [
+   538
+  ],
+  "python": [
+   539
+  ],
+  "run.pyThe": [
+   540
+  ],
+  "script": [
+   541,
+   656,
+   867,
+   947
+  ],
+  "will": [
+   542,
+   813,
+   864,
+   877,
+   1016
+  ],
+  "install": [
+   547
+  ],
+  "dependencies": [
+   548
+  ],
+  "automatically.": [
+   549,
+   598
+  ],
+  "4": [
+   550,
+   712
+  ],
+  "Script": [
+   553,
+   987
+  ],
+  "Details": [
+   554
+  ],
+  "4.1": [
+   555
+  ],
+  "RAW": [
+   556
+  ],
+  "arrays": [
+   560
+  ],
+  "downloaded": [
+   561,
+   597
+  ],
+  "folder": [
+   565,
+   628,
+   774,
+   971,
+   1005,
+   1107,
+   1116
+  ],
+  "\"raw\",": [
+   566
+  ],
+  "file": [
+   568,
+   606,
+   789,
+   836,
+   968
+  ],
+  "array.": [
+   572
+  ],
+  "first": [
+   574,
+   711,
+   795
+  ],
+  "2": [
+   575
+  ],
+  "columns": [
+   576,
+   603,
+   797,
+   806
+  ],
+  "\"chromosome\"": [
+   578
+  ],
+  "\"location\".": [
+   580
+  ],
+  "assembly": [
+   582
+  ],
+  "mapping": [
+   585
+  ],
+  "project": [
+   588
+  ],
+  "\"GRCH37": [
+   591
+  ],
+  "primary": [
+   592
+  ],
+  "assembly\".": [
+   593
+  ],
+  "also": [
+   596,
+   756
+  ],
+  "rest": [
+   600,
+   803
+  ],
+  "levels(required)": [
+   609
+  ],
+  "other": [
+   611
+  ],
+  "biological": [
+   612,
+   759
+  ],
+  "(optional)": [
+   614
+  ],
+  "wish": [
+   616,
+   636
+  ],
+  "incorporate": [
+   618
+  ],
+  "enhance": [
+   620
+  ],
+  "model.": [
+   622
+  ],
+  "These": [
+   623
+  ],
+  "files": [
+   624,
+   771
+  ],
+  "raw": [
+   627,
+   770,
+   788,
+   825,
+   835
+  ],
+  "initial": [
+   631
+  ],
+  "inputs": [
+   632
+  ],
+  "pipeline,if": [
+   634
+  ],
+  "own": [
+   640,
+   779,
+   976
+  ],
+  "data,": [
+   641
+  ],
+  "must": [
+   643
+  ],
+  "be": [
+   644,
+   762,
+   814,
+   1017
+  ],
+  "configured": [
+   645
+  ],
+  "as": [
+   646,
+   764,
+   809,
+   880,
+   882,
+   957
+  ],
+  "such": [
+   647,
+   956
+  ],
+  "before": [
+   648
+  ],
+  "running": [
+   649
+  ],
+  "pipeline.": [
+   651
+  ],
+  "4.2": [
+   652
+  ],
+  "Generate": [
+   653
+  ],
+  "Sample": [
+   654
+  ],
+  "Use": [
+   655,
+   946,
+   988,
+   1095
+  ],
+  "\"generate_samples.py\"": [
+   657
+  ],
+  "training": [
+   662,
+   695,
+   782,
+   855,
+   1008
+  ],
+  "testing.The": [
+   664
+  ],
+  "directly": [
+   668
+  ],
+  "read": [
+   669
+  ],
+  "file.": [
+   675
+  ],
+  "Instead,": [
+   676
+  ],
+  "divided": [
+   681
+  ],
+  "into": [
+   682
+  ],
+  "windows,": [
+   683
+  ],
+  "1kb": [
+   687
+  ],
+  "(1000": [
+   688
+  ],
+  "base": [
+   689,
+   726
+  ],
+  "pairs)": [
+   690
+  ],
+  "length,": [
+   692
+  ],
+  "generated": [
+   699,
+   999,
+   1101
+  ],
+  "window.": [
+   702
+  ],
+  "Each": [
+   703
+  ],
+  "channels.": [
+   709,
+   766
+  ],
+  "sequence": [
+   715
+  ],
+  "one-hot": [
+   716
+  ],
+  "encoding,": [
+   717
+  ],
+  "5th": [
+   719
+  ],
+  "If": [
+   724,
+   742,
+   1155
+  ],
+  "pair": [
+   727
+  ],
+  "location": [
+   728
+  ],
+  "value": [
+   737,
+   754,
+   848
+  ],
+  "\"-1\".": [
+   741,
+   757
+  ],
+  "CpG's": [
+   744
+  ],
+  "waiting": [
+   750
+  ],
+  "imputaion,": [
+   752
+  ],
+  "its": [
+   753
+  ],
+  "added": [
+   763,
+   815
+  ],
+  "extra": [
+   765
+  ],
+  "Check": [
+   767
+  ],
+  "out": [
+   768,
+   963
+  ],
+  "\"raw\"": [
+   775,
+   792
+  ],
+  "form": [
+   777,
+   974
+  ],
+  "generation.For": [
+   786
+  ],
+  "folder,": [
+   793,
+   942,
+   1015
+  ],
+  "chr,": [
+   799
+  ],
+  "loc,": [
+   800
+  ],
+  "methylation.The": [
+   802
+  ],
+  "treated": [
+   808
+  ],
+  "additional": [
+   810
+  ],
+  "channels": [
+   811
+  ],
+  "during": [
+   819,
+   1078
+  ],
+  "generation.": [
+   820
+  ],
+  "'-d'": [
+   821
+  ],
+  "'--folder':": [
+   823
+  ],
+  "specify": [
+   824
+  ],
+  "folder'-i'": [
+   827
+  ],
+  "'--index'": [
+   829
+  ],
+  "column": [
+   832
+  ],
+  "array'-t'": [
+   840
+  ],
+  "'--tol'": [
+   842
+  ],
+  "how": [
+   844,
+   1062
+  ],
+  "many": [
+   845,
+   1063
+  ],
+  "tolerated(we": [
+   850
+  ],
+  "recommend": [
+   851
+  ],
+  "0": [
+   852,
+   863,
+   1153
+  ],
+  "generating": [
+   854,
+   860
+  ],
+  "-1": [
+   858,
+   876
+  ],
+  "samples,": [
+   862
+  ],
+  "force": [
+   865,
+   913
+  ],
+  "no": [
+   874
+  ],
+  "missings,": [
+   875
+  ],
+  "tolerate": [
+   878
+  ],
+  "much": [
+   881
+  ],
+  "possible.)'-c'": [
+   883
+  ],
+  "'--chr'": [
+   885
+  ],
+  "chromosome": [
+   889,
+   936
+  ],
+  "use,": [
+   891,
+   906,
+   1055,
+   1150
+  ],
+  "\"chr#\"": [
+   894
+  ],
+  "chromosomes'-w'": [
+   898
+  ],
+  "'--winsize'": [
+   900
+  ],
+  "what": [
+   902
+  ],
+  "size": [
+   904,
+   1028,
+   1038,
+   1123,
+   1133
+  ],
+  "1000": [
+   909
+  ],
+  "'-m'": [
+   910
+  ],
+  "'--mincpg':": [
+   912
+  ],
+  "minimum": [
+   920
+  ],
+  "CpGs,": [
+   923
+  ],
+  "10": [
+   926,
+   1092
+  ],
+  "'-n'": [
+   927
+  ],
+  "'--nsample':": [
+   929
+  ],
+  "per": [
+   935
+  ],
+  "'-p'": [
+   937
+  ],
+  "'--output':": [
+   939
+  ],
+  "output": [
+   941,
+   1115
+  ],
+  "\"out\"": [
+   945
+  ],
+  "\"generate_samples_concat.py\"": [
+   948
+  ],
+  "interacting": [
+   954,
+   978
+  ],
+  "computed": [
+   961
+  ],
+  "correlation.Check": [
+   962
+  ],
+  "long": [
+   966
+  ],
+  "\"data\"": [
+   972
+  ],
+  "generation": [
+   982
+  ],
+  "concatenation.": [
+   984
+  ],
+  "4.3": [
+   985
+  ],
+  "diffusion.py": [
+   989
+  ],
+  "samples'-t'": [
+   1000
+  ],
+  "'--train_folder'": [
+   1002
+  ],
+  "containing": [
+   1006,
+   1108
+  ],
+  "samples'-f'": [
+   1009
+  ],
+  "'--model_folder'": [
+   1011
+  ],
+  "created": [
+   1018
+  ],
+  "if": [
+   1019,
+   1045,
+   1140
+  ],
+  "does": [
+   1021
+  ],
+  "exist'-w'": [
+   1023
+  ],
+  "'--win_size'": [
+   1025,
+   1120
+  ],
+  "sample,": [
+   1031,
+   1126
+  ],
+  "1000'-c'": [
+   1034,
+   1129
+  ],
+  "'--channel':": [
+   1036,
+   1131
+  ],
+  "channel": [
+   1037,
+   1132
+  ],
+  "sample'-d'": [
+   1041,
+   1136
+  ],
+  "'--cuda_device'": [
+   1043,
+   1138
+  ],
+  "multiple": [
+   1048,
+   1143
+  ],
+  "gpus,": [
+   1050,
+   1145
+  ],
+  "gpu": [
+   1053,
+   1148
+  ],
+  "0\"-e\"": [
+   1058
+  ],
+  "\"--epoch\"": [
+   1060
+  ],
+  "training,": [
+   1066,
+   1079
+  ],
+  "2000\"-s\"": [
+   1069
+  ],
+  "\"--earlystop\"": [
+   1071
+  ],
+  "whether": [
+   1073
+  ],
+  "\"early": [
+   1076
+  ],
+  "stopping\"": [
+   1077
+  ],
+  "False\"-p\"": [
+   1082
+  ],
+  "\"--patience\"": [
+   1084
+  ],
+  "patience": [
+   1086
+  ],
+  "early": [
+   1088
+  ],
+  "stopping,": [
+   1089
+  ],
+  "4.4": [
+   1093
+  ],
+  "Imputation": [
+   1094
+  ],
+  "diffusion_inpainting.py": [
+   1096
+  ],
+  "perform": [
+   1098
+  ],
+  "samples.'-t'": [
+   1102
+  ],
+  "'--test_folder'": [
+   1104
+  ],
+  "imputation'-o'": [
+   1111
+  ],
+  "'--out_folder':": [
+   1113
+  ],
+  "name,": [
+   1117
+  ],
+  "default=\"inpainting_out\"'-w'": [
+   1118
+  ],
+  "Team": [
+   1154
+  ],
+  "any": [
+   1158
+  ],
+  "questions": [
+   1159
+  ],
+  "concerns": [
+   1161
+  ],
+  "about": [
+   1162
+  ],
+  "project,": [
+   1164
+  ],
+  "please": [
+   1165
+  ],
+  "contact": [
+   1166
+  ],
+  "team": [
+   1169
+  ],
+  "member:": [
+   1170
+  ],
+  "Fengyao": [
+   1171
+  ],
+  "Yan": [
+   1172
+  ],
+  "fxy134@miami.edu": [
+   1173
+  ]
+ }
+}

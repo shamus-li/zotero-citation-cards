@@ -1,0 +1,37 @@
+{
+ "l": "1",
+ "r": [
+  {
+   "t": "Image denoising: Can plain neural networks compete with BM3D?",
+   "u": "https://scholar.google.com/scholar_url?url=https://ieeexplore.ieee.org/abstract/document/6247952/&hl=en",
+   "x": "",
+   "m": "HC Burger, CJ Schuler, S Harmeling - 2012 IEEE conference on computer vision and …, 2012",
+   "s": "Image denoising can be described as the problem of mapping from a noisy image to a noise-free image. The best currently available denoising methods approximate this mapping with cleverly engineered algorithms. In this work we attempt to learn this mapping directly with a plain multi layer perceptron (MLP) applied to image patches. While this has been done before, we will show that by training on large image databases we are able to compete with the current state-of-the-art image denoising methods. Furthermore, our approach is easily adapted to less extensively studied types of noise (by merely exchanging the training data), for which we achieve excellent results as well.",
+   "o": "ieeexplore.ieee.org",
+   "i": "",
+   "c": "",
+   "l": {
+    "c": {
+     "l": "Cited by 1812",
+     "u": "/scholar?cites=10540841658606965673&as_sdt=5,33&sciodt=0,33&hl=en&oi=gsr-r"
+    },
+    "r": {
+     "l": "Related articles",
+     "u": "/scholar?q=related:qVPoBqSXSJIJ:scholar.google.com/&oi=gsr-r&hl=en&as_sdt=0,33"
+    },
+    "v": {
+     "l": "All 19 versions",
+     "u": "/scholar?cluster=10540841658606965673&oi=gsr-r&hl=en&as_sdt=0,33"
+    },
+    "f": {
+     "l": "Cite",
+     "u": "#fqVPoBqSXSJIJ"
+    },
+    "g": {
+     "l": "[PDF] hcburger.com",
+     "u": "https://scholar.google.com/scholar_url?url=https://hcburger.com/files/neuraldenoising.pdf&hl=en"
+    }
+   }
+  }
+ ]
+}

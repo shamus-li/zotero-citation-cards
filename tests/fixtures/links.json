@@ -1,0 +1,506 @@
+[
+ {
+  "paper": "neurips-brackets",
+  "link": "Ho et al.",
+  "entry": "[31] Jonathan Ho, Ajay Jain, and Pieter Abbeel. Denoising diffusion probabilistic models.arXiv:2006.11239, 2020.",
+  "fits": true
+ },
+ {
+  "paper": "neurips-brackets",
+  "link": "Nichol and Dhariwal",
+  "entry": "[49] Alex Nichol and Prafulla Dhariwal. Improved denoising diffusion probabilistic models.arXiv:2102.09672, 2021.",
+  "fits": true
+ },
+ {
+  "paper": "neurips-brackets",
+  "link": "Song",
+  "entry": "[64] Jiaming Song, Chenlin Meng, and Stefano Ermon. Denoising diffusion implicit models.arXiv:2010.02502, 2020.",
+  "fits": true
+ },
+ {
+  "paper": "neurips-brackets",
+  "link": "et al.",
+  "entry": "[64] Jiaming Song, Chenlin Meng, and Stefano Ermon. Denoising diffusion implicit models.arXiv:2010.02502, 2020.",
+  "fits": true
+ },
+ {
+  "paper": "neurips-brackets",
+  "link": "Song and Ermon",
+  "entry": "[65] Yang Song and Stefano Ermon. Improved techniques for training score-based generative models.arXiv:2006.09011, 2020.",
+  "fits": true
+ },
+ {
+  "paper": "neurips-brackets",
+  "link": "Song et al.",
+  "entry": "[64] Jiaming Song, Chenlin Meng, and Stefano Ermon. Denoising diffusion implicit models.arXiv:2010.02502, 2020.",
+  "fits": true
+ },
+ {
+  "paper": "neurips-brackets",
+  "link": "Jolicoeur-Martineau",
+  "entry": "[32] Alexia Jolicoeur-Martineau, Rémi Piché-Taillefer, Rémi Tachet des Combes, and Ioan-nis Mitliagkas. Adversarial score matching and improved sampling for image generation.arXiv:2009.05475, 2020.",
+  "fits": true
+ },
+ {
+  "paper": "neurips-brackets",
+  "link": "et al.",
+  "entry": "[32] Alexia Jolicoeur-Martineau, Rémi Piché-Taillefer, Rémi Tachet des Combes, and Ioan-nis Mitliagkas. Adversarial score matching and improved sampling for image generation.arXiv:2009.05475, 2020.",
+  "fits": true
+ },
+ {
+  "paper": "neurips-brackets",
+  "link": "2",
+  "entry": "2 BackgroundIn this section, we provide a brief overview of diffusion models. For a more detailed mathematicaldescription, we refer the reader to Appendix C. On a high level, diffusion models sample from adistribution by reversing a gradual noising process. In particular, sampling starts with noise xTand produces gradually less-noisy samples xT 1, xT 2, ... until reaching a final sample x0. Inparticular, a diffusion model learns to produce a slightly more “denoised” xt 1 from xt. Ho et al.[31] parameterize this model using a function ✏✓(xt, t) which predicts the noise component of a noisysample xt. To train this function, each sample in a minibatch is produced by randomly drawing adata sample x0, a timestep t, and noise ✏, which together give rise to a noised sample xt (Equation 3,Appendix",
+  "fits": false
+ },
+ {
+  "paper": "neurips-brackets",
+  "link": "3",
+  "entry": "3 Architecture ImprovementsHo et al. [31] adopted the UNet architecture [58] for diffusion models, which Jolicoeur-Martineauet al. [32] found to substantially improve sample quality over the previous architectures [65, 39] usedfor denoising score matching. The UNet model uses a stack of residual layers and downsamplingconvolutions, followed by a stack of residual layers with upsampling convolutions, with skip con-nections connecting the layers with the same spatial size. In addition, they use a global attentionlayer at the 16⇥16 resolution with a single head, and add a projection of the timestep embedding intoeach residual block. Song et al. [67] found that further changes to the UNet architecture improvedperformance on the CIFAR-10 [37] and CelebA-64 [40] datasets. We show the same result",
+  "fits": false
+ },
+ {
+  "paper": "neurips-brackets",
+  "link": "4",
+  "entry": "4 Classifier GuidanceIn addition to employing well designed architectures, GANs for conditional image synthesis [45, 8]make heavy use of class labels. This often takes the form of class-conditional normalization statistics[20, 14] as well as discriminators with heads explicitly designed to behave like classifiers p(y|x) [46].As further evidence that class information is crucial to the success of these models, Lucic et al. [42]find that it is helpful to generate synthetic labels when working in a label-limited regime. Given thisobservation for GANs, it makes sense to explore different ways to condition diffusion models on classlabels. We already incorporate class information into adaptive group normalization layers (Section 3).Here, we explore a different approach: exploiting a classifier p",
+  "fits": false
+ },
+ {
+  "paper": "neurips-brackets",
+  "link": "5",
+  "entry": "5 ResultsTo evaluate our improved model architecture on unconditional image generation, we train separatediffusion models on three LSUN [77] classes: bedroom, horse, and cat. To evaluate classifierguidance, we train conditional diffusion models on the ImageNet [59] dataset at 128⇥128, 256⇥256,and 512⇥512 resolution.Table 4 summarizes our results. ADM refers to our ablated diffusion model, and ADM-G additionallyuses classifier guidance. Our diffusion models can obtain the best FID on each task, and the bestsFID on all but one task. With the improved architecture, we already obtain state-of-the-art imagegeneration on LSUN and ImageNet 64⇥64. For higher resolution ImageNet, we observe thatclassifier guidance allows our models to substantially outperform the best GANs. These modelsobtain perce",
+  "fits": false
+ },
+ {
+  "paper": "neurips-brackets",
+  "link": "C",
+  "entry": "Diffusion Models Beat GANs on Image SynthesisPrafulla Dhariwal⇤OpenAIprafulla@openai.comAlex Nichol⇤OpenAIalex@openai.comAbstractWe show that diffusion models can achieve image sample quality superior to thecurrent state-of-the-art generative models. We achieve this on unconditional imagesynthesis by finding a better architecture through a series of ablations. For condi-tional image synthesis, we further improve sample quality with classifier guidance:a simple, compute-efficient method for trading off diversity for fidelity using gradi-ents from a classifier. We achieve an FID of 2.97 on ImageNet 128⇥128, 4.59 onImageNet 256⇥256, and 7.72 on ImageNet 512⇥512, and we match BigGAN-deepeven with as few as 25 forward passes per sample, all while maintaining bettercoverage of the distribution.",
+  "fits": false
+ },
+ {
+  "paper": "neurips-brackets",
+  "link": "3",
+  "entry": "",
+  "fits": false
+ },
+ {
+  "paper": "iclr-inversebench",
+  "link": "Chael et al.",
+  "entry": "Andrew Chael, Katie Bouman, Michael Johnson, Maciek Wielgus, Lindy Blackburn, Chi-KwanChan, Joseph Rachid Farah, Daniel Palumbo, and Dominic Pesce. eht-imaging: v1. 1.0: Imaginginterferometric data with regularized maximum likelihood. Zenodo, 2019.",
+  "fits": true
+ },
+ {
+  "paper": "iclr-inversebench",
+  "link": "2019",
+  "entry": "Andrew Chael, Katie Bouman, Michael Johnson, Maciek Wielgus, Lindy Blackburn, Chi-KwanChan, Joseph Rachid Farah, Daniel Palumbo, and Dominic Pesce. eht-imaging: v1. 1.0: Imaginginterferometric data with regularized maximum likelihood. Zenodo, 2019.",
+  "fits": true
+ },
+ {
+  "paper": "iclr-inversebench",
+  "link": "Virieux & Operto",
+  "entry": "Jean Virieux and Ste ́phane Operto. An overview of full-waveform inversion in exploration geo-physics. Geophysics, 74(6):WCC1–WCC26, 2009.",
+  "fits": true
+ },
+ {
+  "paper": "iclr-inversebench",
+  "link": "2009",
+  "entry": "Jean Virieux and Ste ́phane Operto. An overview of full-waveform inversion in exploration geo-physics. Geophysics, 74(6):WCC1–WCC26, 2009.",
+  "fits": true
+ },
+ {
+  "paper": "iclr-inversebench",
+  "link": "Choi",
+  "entry": "W. Choi, C. Fang-Yen, K. Badizadegan, S. Oh, N. Lue, R. R. Dasari, and M. S. Feld. Tomographicphase microscopy. Nat. Methods, 4(9):717–719, September 2007.",
+  "fits": true
+ },
+ {
+  "paper": "iclr-inversebench",
+  "link": "et al.",
+  "entry": "W. Choi, C. Fang-Yen, K. Badizadegan, S. Oh, N. Lue, R. R. Dasari, and M. S. Feld. Tomographicphase microscopy. Nat. Methods, 4(9):717–719, September 2007.",
+  "fits": true
+ },
+ {
+  "paper": "iclr-inversebench",
+  "link": "2007",
+  "entry": "W. Choi, C. Fang-Yen, K. Badizadegan, S. Oh, N. Lue, R. R. Dasari, and M. S. Feld. Tomographicphase microscopy. Nat. Methods, 4(9):717–719, September 2007.",
+  "fits": true
+ },
+ {
+  "paper": "iclr-inversebench",
+  "link": "Lustig et al.",
+  "entry": "Michael Lustig, David Donoho, and John Pauly. Sparse mri: The application of compressed sensingfor rapid mr imaging. Magnetic resonance in medicine : official journal of the Society of MagneticResonance in Medicine / Society of Magnetic Resonance in Medicine, 58:1182–95, 12 2007. doi:10.1002/mrm.21391.",
+  "fits": true
+ },
+ {
+  "paper": "iclr-inversebench",
+  "link": "1",
+  "entry": "Linear inverse scatteringScattered light fieldInput light fieldCompressed sensing MRI Black hole imaging Full waveform inversion Navier-Stokes equationk-spacemeasurements Visibilities Black holeimageGG†GG†ObservedwaveformsCompressionalwave velocityGG†Observedvorticity fieldInitialvorticity field",
+  "fits": false
+ },
+ {
+  "paper": "iclr-inversebench",
+  "link": "2",
+  "entry": "Table 2: Characteristics of different inverse problems in INVERSEBENCH, from left to right: whetherthe forward model is linear, whether one can compute the SVD from the forward model, whetherthe inverse problem operates in the complex domain, whether the forward model can be solved inclosed form, whether one can access gradients from the forward model, and the noise type.Problem Linear SVD Complex domain Closed-form forward Gradient access Noise typeLinear inverse scattering ✓ ✓ ✓ ✓ ✓ GaussianCompressed sensing MRI ✓ ✗ ✓ ✓ ✓ Real-worldBlack hole imaging ✗ ✗ ✗ ✓ ✓ Non-additiveFull waveform inversion ✗ ✗ ✗ ✗ ✓ Noise-freeNavier-Stokes equation ✗ ✗ ✗ ✗ ✗ Gaussianif the final clean x0 is a candidate source z, in which case p(y|x0) can be estimated by querying G.However, log pt(y|xt) is generall",
+  "fits": false
+ },
+ {
+  "paper": "iclr-inversebench",
+  "link": "3",
+  "entry": "dxt = f (xt, t) − 12 g2(t)∇xt log pt(xt) dt + g(t)dw ̄t, (3)",
+  "fits": false
+ },
+ {
+  "paper": "iclr-inversebench",
+  "link": "1",
+  "entry": "Table 1: Requirements on the forward model of the algorithms evaluated in our experiments.Category Method SVD Pseudo inverse Linear GradientLinear guidance DDRM (Kawar et al., 2022) ✓ ✓ ✓ –",
+  "fits": false
+ },
+ {
+  "paper": "iclr-inversebench",
+  "link": "6",
+  "entry": "Linear inverse scatteringFwd DMFwdGradDMGrad10 310 2Magnetic resonance imagingFwd DMFwdGradDMGrad10 22 × 10 33 × 10 34 × 10 36 × 10 3Black hole imagingFwd DMFwdGradDMGrad10 1100Full waveform inversionFwd DMFwdGradDMGrad10 210 1100 Navier-Stokes equationFwdDMFwd GradDM Grad",
+  "fits": false
+ },
+ {
+  "paper": "iclr-inversebench",
+  "link": "B",
+  "entry": "B INVERSE PROBLEM DETAILSB.1 LINEAR INVERSE SCATTERINGProblem details Consider a 2D object with permittivity distribution ε(r) in a bounded sampleplane Ω ∈ R2, which is immersed in the background medium with permittivity εb. The permittivitycontrast is given by ∆ε(r) = ε(r) − εb. At each time, the object is illuminated by an incident lightfield uin(r) emitted by one of N > 0 transmitters, and the scattered light field usc(r) is measured byM > 0 receivers. We adopt the experimental setup in (Sun et al., 2018) where the transmitters andreceivers are arranged along a circle Γ ∈ R2 that surrounds the object. Here, r := (x, y) denotes",
+  "fits": false
+ },
+ {
+  "paper": "iclr-dps",
+  "link": "Song et al.",
+  "entry": "Yang Song, Jascha Sohl-Dickstein, Diederik P. Kingma, Abhishek Kumar, Stefano Ermon, andBen Poole. Score-based generative modeling through stochastic differential equations. In 9thInternational Conference on Learning Representations, ICLR, 2021b.",
+  "fits": true
+ },
+ {
+  "paper": "iclr-dps",
+  "link": "2021b",
+  "entry": "Yang Song, Jascha Sohl-Dickstein, Diederik P. Kingma, Abhishek Kumar, Stefano Ermon, andBen Poole. Score-based generative modeling through stochastic differential equations. In 9thInternational Conference on Learning Representations, ICLR, 2021b.",
+  "fits": true
+ },
+ {
+  "paper": "iclr-dps",
+  "link": "Chung et al.",
+  "entry": "Hyungjin Chung, Byeongsu Sim, and Jong Chul Ye. Come-Closer-Diffuse-Faster: AcceleratingConditional Diffusion Models for Inverse Problems through Stochastic Contraction. In Proceedingsof the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2022b.",
+  "fits": true
+ },
+ {
+  "paper": "iclr-dps",
+  "link": "2022b",
+  "entry": "Hyungjin Chung, Byeongsu Sim, and Jong Chul Ye. Come-Closer-Diffuse-Faster: AcceleratingConditional Diffusion Models for Inverse Problems through Stochastic Contraction. In Proceedingsof the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2022b.",
+  "fits": true
+ },
+ {
+  "paper": "iclr-dps",
+  "link": "Chung & Ye",
+  "entry": "Hyungjin Chung and Jong Chul Ye. Score-based diffusion models for accelerated MRI. MedicalImage Analysis, pp. 102479, 2022.",
+  "fits": true
+ },
+ {
+  "paper": "iclr-dps",
+  "link": "2022",
+  "entry": "Hyungjin Chung and Jong Chul Ye. Score-based diffusion models for accelerated MRI. MedicalImage Analysis, pp. 102479, 2022.",
+  "fits": true
+ },
+ {
+  "paper": "iclr-dps",
+  "link": "Choi et al.",
+  "entry": "Jooyoung Choi, Sungwon Kim, Yonghyun Jeong, Youngjune Gwon, and Sungroh Yoon. ILVR:Conditioning method for denoising diffusion probabilistic models. In Proceedings of the IEEE/CVFInternational Conference on Computer Vision (ICCV), 2021.",
+  "fits": true
+ },
+ {
+  "paper": "iclr-dps",
+  "link": "2021",
+  "entry": "Jooyoung Choi, Sungwon Kim, Yonghyun Jeong, Youngjune Gwon, and Sungroh Yoon. ILVR:Conditioning method for denoising diffusion probabilistic models. In Proceedings of the IEEE/CVFInternational Conference on Computer Vision (ICCV), 2021.",
+  "fits": true
+ },
+ {
+  "paper": "iclr-dps",
+  "link": "1",
+  "entry": "",
+  "fits": false
+ },
+ {
+  "paper": "iclr-dps",
+  "link": "1",
+  "entry": "(1)where β(t) : R → R > 0 is the noise schedule of the process, typically taken to be monotonicallyincreasing linear function of t (Ho et al., 2020), and w is the standard d−dimensional Wiener process.The data distribution is defined when t = 0, i.e. x(0) ∼ pdata, and a simple, tractable distribution (e.g.isotropic Gaussian) is achieved when t = T , i.e. x(T ) ∼ N (0, I).",
+  "fits": false
+ },
+ {
+  "paper": "iclr-dps",
+  "link": "3",
+  "entry": "θ∗ = arg minθEt∼U(ε,1),x(t)∼p(x(t)|x(0)),x(0)∼pdata ∥sθ(x(t), t) − ∇xt log p(x(t)|x(0))∥22 , (3)",
+  "fits": false
+ },
+ {
+  "paper": "iclr-dps",
+  "link": "2",
+  "entry": "",
+  "fits": false
+ },
+ {
+  "paper": "iclr-dps",
+  "link": "2",
+  "entry": "(2)1In this work, we consider the variance preserving (VP) form of the SDE (Song et al., 2021b) which isequivalent to Denoising Diffusion Probabilistic Models (DDPM) (Ho et al., 2020).",
+  "fits": false
+ },
+ {
+  "paper": "iclr-dps",
+  "link": "4",
+  "entry": "(4)where we have used the fact that∇xt log pt(xt|y) = ∇xt log pt(xt) + ∇xt log pt(y|xt). (5)In (4), we have two terms that should be computed: the score function ∇xt log pt(xt), and thelikelihood ∇xt log pt(y|xt). To compute the former term involving pt(x), we can simply use thepre-trained score function sθ∗ . However, the latter term is hard to acquire in closed-form due to thedependence on the time t, as there only exists explicit dependence between y and x0.Formally, the general form of the forward model3 can be stated asy = A(x0) + n, y, n ∈ Rn, x ∈ Rd, (6)where A(·) : Rd 7→ Rn is the forward measurement operator and n is the measurement noise. Inthe case of white Gaussian noise, n ∼ N (0, σ2I). In explicit form, p(y|x0) ∼ N (y|A(x0), σ2I).However, there does not exist explicit depende",
+  "fits": false
+ },
+ {
+  "paper": "icml-consistency",
+  "link": "Sohl-Dickstein et al.",
+  "entry": "Sohl-Dickstein, J., Weiss, E., Maheswaranathan, N., andGanguli, S. Deep Unsupervised Learning Using Nonequi-librium Thermodynamics. In International Conferenceon Machine Learning, pp. 2256–2265, 2015.",
+  "fits": true
+ },
+ {
+  "paper": "icml-consistency",
+  "link": "2015",
+  "entry": "Sohl-Dickstein, J., Weiss, E., Maheswaranathan, N., andGanguli, S. Deep Unsupervised Learning Using Nonequi-librium Thermodynamics. In International Conferenceon Machine Learning, pp. 2256–2265, 2015.",
+  "fits": true
+ },
+ {
+  "paper": "icml-consistency",
+  "link": "Song & Er-",
+  "entry": "Song, Y. and Ermon, S. Generative Modeling by EstimatingGradients of the Data Distribution. In Advances in NeuralInformation Processing Systems, pp. 11918–11930, 2019.",
+  "fits": true
+ },
+ {
+  "paper": "icml-consistency",
+  "link": "mon",
+  "entry": "Song, Y. and Ermon, S. Generative Modeling by EstimatingGradients of the Data Distribution. In Advances in NeuralInformation Processing Systems, pp. 11918–11930, 2019.",
+  "fits": true
+ },
+ {
+  "paper": "icml-consistency",
+  "link": "2019",
+  "entry": "Song, Y. and Ermon, S. Generative Modeling by EstimatingGradients of the Data Distribution. In Advances in NeuralInformation Processing Systems, pp. 11918–11930, 2019.",
+  "fits": true
+ },
+ {
+  "paper": "icml-consistency",
+  "link": "2020",
+  "entry": "Song, Y. and Ermon, S. Improved Techniques for TrainingScore-Based Generative Models. Advances in NeuralInformation Processing Systems, 33, 2020.",
+  "fits": true
+ },
+ {
+  "paper": "icml-consistency",
+  "link": "Ho et al.",
+  "entry": "Ho, J., Jain, A., and Abbeel, P. Denoising Diffusion Proba-bilistic Models. Advances in Neural Information Process-ing Systems, 33, 2020.",
+  "fits": true
+ },
+ {
+  "paper": "icml-consistency",
+  "link": "2020",
+  "entry": "Ho, J., Jain, A., and Abbeel, P. Denoising Diffusion Proba-bilistic Models. Advances in Neural Information Process-ing Systems, 33, 2020.",
+  "fits": true
+ },
+ {
+  "paper": "icml-consistency",
+  "link": "1",
+  "entry": "",
+  "fits": false
+ },
+ {
+  "paper": "icml-consistency",
+  "link": "1",
+  "entry": "(1)where t P r0, T s, T ą 0 is a fixed constant, μp ̈,  ̈q andσp ̈q are the drift and diffusion coefficients respectively,and twtutPr0,T s denotes the standard Brownian motion.We denote the distribution of xt as ptpxq and as a resultp0pxq ” pdatapxq. A remarkable property of this SDE isthe existence of an ordinary differential equation (ODE),dubbed the Probability Flow (PF) ODE by Song et al.(2021), whose solution trajectories sampled at t are dis-tributed according to ptpxq:",
+  "fits": false
+ },
+ {
+  "paper": "icml-consistency",
+  "link": "2",
+  "entry": "(2)Here ∇ log ptpxq is the score function of ptpxq; hence dif-fusion models are also known as score-based generativemodels (Song & Ermon, 2019; 2020; Song et al., 2021).",
+  "fits": false
+ },
+ {
+  "paper": "icml-consistency",
+  "link": "2",
+  "entry": "",
+  "fits": false
+ },
+ {
+  "paper": "icml-consistency",
+  "link": "4",
+  "entry": "4. Training Consistency Models via DistillationWe present our first method for training consistency mod-els based on distilling a pre-trained score model sφpx, tq.Our discussion revolves around the empirical PF ODE inEq. (3), obtained by plugging the score model sφpx, tqinto the PF ODE. Consider discretizing the time horizonrε, T s into N  ́ 1 sub-intervals, with boundaries t1 “ ε ăt2 ă  ̈  ̈  ̈ ă tN “ T . In practice, we follow Karraset al. (2022) to determine the boundaries with the formulati “ pε1{ρ ` i ́1{N ́1pT 1{ρ  ́ ε1{ρqqρ, where ρ “ 7. When",
+  "fits": false
+ },
+ {
+  "paper": "icml-consistency",
+  "link": "5",
+  "entry": "5. Training Consistency Models in IsolationConsistency models can be trained without relying on anypre-trained diffusion models. This differs from existingdiffusion distillation techniques, making consistency modelsa new independent family of generative models.Recall that in consistency distillation, we rely on a pre-trained score model sφpx, tq to approximate the groundtruth score function ∇ log ptpxq. It turns out that we canavoid this pre-trained score model altogether by leveragingthe following unbiased estimator (Lemma 1 in Appendix A):∇ log ptpxtq “  ́E„ xt  ́ xt2ˇˇˇˇxtȷ,where x „ pdata and xt „ N px; t2Iq. That is, given x andxt, we can estimate ∇ log ptpxtq with  ́pxt  ́ xq{t2.This unbiased estimate suffices to replace the pre-traineddiffusion model in consistency distillation when",
+  "fits": false
+ },
+ {
+  "paper": "iclr-score-sde",
+  "link": "Song & Ermon",
+  "entry": "Yang Song and Stefano Ermon. Generative modeling by estimating gradients of the data distribution.In Advances in Neural Information Processing Systems, pp. 11895–11907, 2019.",
+  "fits": true
+ },
+ {
+  "paper": "iclr-score-sde",
+  "link": "2019",
+  "entry": "Yang Song and Stefano Ermon. Generative modeling by estimating gradients of the data distribution.In Advances in Neural Information Processing Systems, pp. 11895–11907, 2019.",
+  "fits": true
+ },
+ {
+  "paper": "iclr-score-sde",
+  "link": "Sohl-Dickstein et al.",
+  "entry": "Jascha Sohl-Dickstein, Eric Weiss, Niru Maheswaranathan, and Surya Ganguli. Deep unsupervisedlearning using nonequilibrium thermodynamics. In International Conference on Machine Learning,pp. 2256–2265, 2015.",
+  "fits": true
+ },
+ {
+  "paper": "iclr-score-sde",
+  "link": "2015",
+  "entry": "Jascha Sohl-Dickstein, Eric Weiss, Niru Maheswaranathan, and Surya Ganguli. Deep unsupervisedlearning using nonequilibrium thermodynamics. In International Conference on Machine Learning,pp. 2256–2265, 2015.",
+  "fits": true
+ },
+ {
+  "paper": "iclr-score-sde",
+  "link": "Ho et al.",
+  "entry": "Jonathan Ho, Ajay Jain, and Pieter Abbeel. Denoising diffusion probabilistic models. Advances inNeural Information Processing Systems, 33, 2020.",
+  "fits": true
+ },
+ {
+  "paper": "iclr-score-sde",
+  "link": "2020",
+  "entry": "Jonathan Ho, Ajay Jain, and Pieter Abbeel. Denoising diffusion probabilistic models. Advances inNeural Information Processing Systems, 33, 2020.",
+  "fits": true
+ },
+ {
+  "paper": "iclr-score-sde",
+  "link": "Bordes et al.",
+  "entry": "Florian Bordes, Sina Honari, and Pascal Vincent. Learning to generate samples from noise throughinfusion training. arXiv preprint arXiv:1703.06975, 2017.",
+  "fits": true
+ },
+ {
+  "paper": "iclr-score-sde",
+  "link": "2017",
+  "entry": "Florian Bordes, Sina Honari, and Pascal Vincent. Learning to generate samples from noise throughinfusion training. arXiv preprint arXiv:1703.06975, 2017.",
+  "fits": true
+ },
+ {
+  "paper": "iclr-score-sde",
+  "link": "̊Work partially done during an internship at Google Brain.",
+  "entry": "Ruojin Cai, Guandao Yang, Hadar Averbuch-Elor, Zekun Hao, Serge Belongie, Noah Snavely, andBharath Hariharan. Learning gradient fields for shape generation. In Proceedings of the EuropeanConference on Computer Vision (ECCV), 2020.",
+  "fits": false
+ },
+ {
+  "paper": "iclr-score-sde",
+  "link": "1",
+  "entry": "Ruojin Cai, Guandao Yang, Hadar Averbuch-Elor, Zekun Hao, Serge Belongie, Noah Snavely, andBharath Hariharan. Learning gradient fields for shape generation. In Proceedings of the EuropeanConference on Computer Vision (ECCV), 2020.",
+  "fits": false
+ },
+ {
+  "paper": "iclr-score-sde",
+  "link": "Published as a conference paper at ICLR 2021",
+  "entry": "Ruojin Cai, Guandao Yang, Hadar Averbuch-Elor, Zekun Hao, Serge Belongie, Noah Snavely, andBharath Hariharan. Learning gradient fields for shape generation. In Proceedings of the EuropeanConference on Computer Vision (ECCV), 2020.",
+  "fits": false
+ },
+ {
+  "paper": "iclr-score-sde",
+  "link": "1",
+  "entry": "",
+  "fits": false
+ },
+ {
+  "paper": "iclr-score-sde",
+  "link": "1",
+  "entry": "(1)Given sufficient data and model capacity, the optimal score-based model sθ ̊ px, σq matches∇x log pσpxq almost everywhere for σ P tσiuNi“1. For sampling, Song & Ermon (2019) run M steps",
+  "fits": false
+ },
+ {
+  "paper": "iclr-score-sde",
+  "link": "2",
+  "entry": "Data Forward SDE Prior Reverse SDE DataFigure 2: Overview of score-based generative modeling through SDEs. We can map data to anoise distribution (the prior) with an SDE (Section 3.1), and reverse this SDE for generative modeling(Section 3.2). We can also reverse the associated probability flow ODE (Section 4.3), which yields adeterministic process that samples from the same distribution as the SDE. Both the reverse-time SDEand probability flow ODE can be obtained by estimating the score ∇x log ptpxq (Section 3.3).where w is the standard Wiener process (a.k.a., Brownian motion), f p ̈, tq : Rd Ñ Rd is a vector-valued function called the drift coefficient of xptq, and gp ̈q : R Ñ R is a scalar function known asthe diffusion coefficient of xptq. For ease of presentation we assume the diffu",
+  "fits": false
+ },
+ {
+  "paper": "tmlr-tweedie",
+  "link": "Song et al.",
+  "entry": "Yang Song, Jascha Sohl-Dickstein, Diederik P Kingma, Abhishek Kumar, Stefano Ermon, and BenPoole. Score-based generative modeling through stochastic differential equations. arXiv preprintarXiv:2011.13456, 2020.",
+  "fits": true
+ },
+ {
+  "paper": "tmlr-tweedie",
+  "link": "2020",
+  "entry": "Yang Song, Jascha Sohl-Dickstein, Diederik P Kingma, Abhishek Kumar, Stefano Ermon, and BenPoole. Score-based generative modeling through stochastic differential equations. arXiv preprintarXiv:2011.13456, 2020.",
+  "fits": true
+ },
+ {
+  "paper": "tmlr-tweedie",
+  "link": "Ho et al.",
+  "entry": "Jonathan Ho, Ajay Jain, and Pieter Abbeel. Denoising diffusion probabilistic models, 2020.",
+  "fits": true
+ },
+ {
+  "paper": "tmlr-tweedie",
+  "link": "2020",
+  "entry": "Jonathan Ho, Ajay Jain, and Pieter Abbeel. Denoising diffusion probabilistic models, 2020.",
+  "fits": true
+ },
+ {
+  "paper": "tmlr-tweedie",
+  "link": "Dhariwal & Nichol",
+  "entry": "Prafulla Dhariwal and Alexander Nichol. Diffusion models beat gans on image synthesis. Advances in neuralinformation processing systems, 34:8780–8794, 2021.",
+  "fits": true
+ },
+ {
+  "paper": "tmlr-tweedie",
+  "link": "2021",
+  "entry": "Prafulla Dhariwal and Alexander Nichol. Diffusion models beat gans on image synthesis. Advances in neuralinformation processing systems, 34:8780–8794, 2021.",
+  "fits": true
+ },
+ {
+  "paper": "tmlr-tweedie",
+  "link": "Ho & Salimans",
+  "entry": "Jonathan Ho and Tim Salimans. Classifier-free diffusion guidance. arXiv preprint arXiv:2207.12598, 2022.Jonathan Ho, Ajay Jain, and Pieter Abbeel. Denoising diffusion probabilistic models, 2020.",
+  "fits": true
+ },
+ {
+  "paper": "tmlr-tweedie",
+  "link": "2022",
+  "entry": "Jonathan Ho and Tim Salimans. Classifier-free diffusion guidance. arXiv preprint arXiv:2207.12598, 2022.Jonathan Ho, Ajay Jain, and Pieter Abbeel. Denoising diffusion probabilistic models, 2020.",
+  "fits": true
+ },
+ {
+  "paper": "tmlr-tweedie",
+  "link": "5",
+  "entry": "5 Related WorkIn this section, we review two closely related methods, that we use as benchmarks, and summarise therelationship between them.The first work by Chung et al. (2022a), abbreviated DPS-D here2 introduced the use of Tweedie’s formulato approximate pt(x0|xt) with a Dirac delta (point) distribution centred at m0|t. In our framework thiscorresponds to choosing a zero covariance, i.e.,",
+  "fits": false
+ },
+ {
+  "paper": "tmlr-tweedie",
+  "link": "1",
+  "entry": "Figure 1: Error to target posterior for a Gaus-sian random field. (Top row) visualisation ofthe empirical mean and variance of the 1500samples that were used to compute this er-ror against the analytical moments. (Bottom)Wasserstein distances of different methods w.r.t.sample size. For details, see Appendix E.2.This paper is devoted to developing novel methods tosolving inverse problems, given a latent (target) signalx0 ∈ Rdx , noisy observed data y ∈ Rdy , a known linearobservation map H, and a pretrained diffusion prior. Themain tool we use is Tweedie’s formula to obtain both themean and the covariance for approximating diffused likeli-hoods, to be used for building the final posterior score ap-proximation. This is as opposed to previous works whichonly utilised first moment approximatio",
+  "fits": false
+ },
+ {
+  "paper": "tmlr-tweedie",
+  "link": "1",
+  "entry": "1We only plot the variances for visualisation while the GRF has a full covariance.2",
+  "fits": false
+ },
+ {
+  "paper": "tmlr-tweedie",
+  "link": "2",
+  "entry": "2 Technical BackgroundIn score based generative models (SGMs) (Song et al., 2020) and denoising diffusion probabilistic models(DDPM) (Ho et al., 2020), the goal is to sample from a target distribution p0 := pdata. To that end, anartificial path pt is introduced, with the property that pt will approach N (0, I) for large t, i.e., pt → N (0, Id)as t → ∞. Then, one learns to reverse this process, in order to transform samples from a standard normaldistribution into samples from pdata. More recent advances in generative modelling include methods withartificial paths based on stochastic interpolants or continuous normalizing flows, see, e.g., Albergo & Vanden-Eijnden (2022); Lipman et al. (2022). Conditional flow matching draws inspiration from the denoising scorematching approach, but generali",
+  "fits": false
+ },
+ {
+  "paper": "tmlr-tweedie",
+  "link": "3",
+  "entry": "3 Tweedie Moment Projected DiffusionsIn this section, we first introduce Tweedie moment projections in Section 3.1 below. Our method relieson the approximation p0|t(x0|xt) ≈ N (x0; m0|t(xt), C0|t(xt)) to make the sampling process tractable. Inthat case, since the conditional distribution of y given x0 is also Gaussian, we can compute the integral inEquation 4 analytically — py|t(y|xt) will just be another Gaussian in that case, its mean and covariancebeing determined through m0|t, C0|t, H and σy. In particular, we can then use this Gaussian to approximate∇ log py|t(y|xt), since the score of a Gaussian is available in closed form.3.1 Tweedie moment projectionsInstead of just approximating the variance of p0|t(x0|xt) heuristically, we approximate it by projecting ontothe closest Gaussian dis",
+  "fits": false
+ },
+ {
+  "paper": "tmlr-tweedie",
+  "link": "4",
+  "entry": "4 Theoretical GuaranteesBecause of the approximations, our method, as well as ΠGDM Song et al. (2023) and DPS (Chung et al.,2022a) do not sample the exact posterior for general prior distributions. Therefore, one cannot hope for thesemethods to sample the true posterior and a priori it is not even clear how the sampled distribution relatesto the true posterior. Without further justification, such methods should only be interpreted as guidancemethods, where paths are guided to regions where a given observation y is more likely, not as posteriorsampling methods.",
+  "fits": false
+ }
+]

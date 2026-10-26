@@ -1,0 +1,84 @@
+{
+ "r": [
+  {
+   "t": "A Study of the Limits of Collaborative DCT-Based <b>Image Denoising </b>via Interpretable <b>Neural Networks</b>",
+   "u": "https://scholar.google.com/scholar_url?url=https://arxiv.org/abs/2609.29334&hl=en",
+   "x": "",
+   "m": "C Comellas, J Navarro, A Buades - arXiv preprint arXiv:2609.29334, 2026",
+   "s": "… -domain sparsity have long been central to classical image denoising, with BM3D [3… \nOverall, our results suggest that a substantial part of image denoising performance can still be …",
+   "o": "",
+   "i": "",
+   "c": "",
+   "l": {
+    "r": {
+     "l": "Related articles",
+     "u": "/scholar?q=related:vmd7auVI1hQJ:scholar.google.com/&oi=gsr-r&hl=en&as_sdt=0,33"
+    },
+    "f": {
+     "l": "Cite",
+     "u": "#fvmd7auVI1hQJ"
+    },
+    "g": {
+     "l": "[PDF] arxiv.org",
+     "u": "https://scholar.google.com/scholar_url?url=https://arxiv.org/pdf/2609.29334&hl=en"
+    }
+   }
+  },
+  {
+   "t": "<b>Image Denoising</b>: A Comprehensive Review of Classical to Deep Learning Approaches",
+   "u": "https://scholar.google.com/scholar_url?url=https://www.researchgate.net/profile/Parthaw-Goswami/publication/404392531_Image_Denoising_A_Comprehensive_Review_of_Classical_to_Deep_Learning_Approaches/links/69f76f8bb1dace04f143f1e6/Image-Denoising-A-Comprehensive-Review-of-Classical-to-Deep-Learning-Approaches.pdf&hl=en",
+   "x": "PDF",
+   "m": "P Goswami, MK Islam",
+   "s": "… [49] Burger HC, Schuler CJ, Harmeling S. Image denoising: Can plain neural networks \ncompete with BM3D?. In2012 IEEE conference on computer vision and pattern recognition. …",
+   "o": "",
+   "i": "",
+   "c": "",
+   "l": {
+    "r": {
+     "l": "Related articles",
+     "u": "/scholar?q=related:FII6boZTpegJ:scholar.google.com/&oi=gsr-r&hl=en&as_sdt=0,33"
+    },
+    "f": {
+     "l": "Cite",
+     "u": "#fFII6boZTpegJ"
+    },
+    "g": {
+     "l": "[PDF] researchgate.net",
+     "u": "https://scholar.google.com/scholar_url?url=https://www.researchgate.net/profile/Parthaw-Goswami/publication/404392531_Image_Denoising_A_Comprehensive_Review_of_Classical_to_Deep_Learning_Approaches/links/69f76f8bb1dace04f143f1e6/Image-Denoising-A-Comprehensive-Review-of-Classical-to-Deep-Learning-Approaches.pdf&hl=en"
+    }
+   }
+  },
+  {
+   "t": "<b>Image </b>reconstruction using deep learning",
+   "u": "https://scholar.google.com/scholar_url?url=https://arxiv.org/abs/1809.10410&hl=en",
+   "x": "",
+   "m": "PY Liu, EY Lam - arXiv preprint arXiv:1809.10410, 2018",
+   "s": "… Burger, Schuler, and Harmeling [21] demonstrated that a simple feed-forward neural network \ncould … we adopt the denoising network as a solution toward image denoising, a tradeoff …",
+   "o": "",
+   "i": "",
+   "c": "",
+   "l": {
+    "c": {
+     "l": "Cited by 26",
+     "u": "/scholar?cites=9639035709316027990&as_sdt=5,33&sciodt=0,33&hl=en&oi=gsr-r"
+    },
+    "r": {
+     "l": "Related articles",
+     "u": "/scholar?q=related:VlYWZ-i7xIUJ:scholar.google.com/&oi=gsr-r&hl=en&as_sdt=0,33"
+    },
+    "v": {
+     "l": "All 2 versions",
+     "u": "/scholar?cluster=9639035709316027990&oi=gsr-r&hl=en&as_sdt=0,33"
+    },
+    "f": {
+     "l": "Cite",
+     "u": "#fVlYWZ-i7xIUJ"
+    },
+    "g": {
+     "l": "[PDF] arxiv.org",
+     "u": "https://scholar.google.com/scholar_url?url=https://arxiv.org/pdf/1809.10410&hl=en"
+    }
+   }
+  }
+ ]
+}

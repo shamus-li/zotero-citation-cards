@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Citation Cards",
+  "version": "0.1.0",
+  "description": "Click an in-text citation in the PDF reader to see the cited paper's title, abstract and links.",
+  "homepage_url": "https://github.com/shamus-li/zotero-citation-cards",
+  "applications": {
+    "zotero": {
+      "id": "citation-cards@shamus-li.github.io",
+      "update_url": "https://github.com/shamus-li/zotero-citation-cards/releases/latest/download/updates.json",
+      "strict_min_version": "10.0",
+      "strict_max_version": "11.*"
+    }
+  }
+}

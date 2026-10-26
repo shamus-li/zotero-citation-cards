@@ -1,0 +1,2778 @@
+{
+ "results": [
+  {
+   "id": "https://openalex.org/W2037642501",
+   "doi": "https://doi.org/10.1109/cvpr.2012.6247952",
+   "title": "Image denoising: Can plain neural networks compete with BM3D?",
+   "publication_year": 2012,
+   "cited_by_count": 1306,
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": null,
+      "display_name": "H. C. Burger",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4210135521",
+       "display_name": "Max Planck Institute for Intelligent Systems",
+       "ror": "https://ror.org/04fq9j139",
+       "country_code": "DE",
+       "type": "facility",
+       "lineage": [
+        "https://openalex.org/I149899117",
+        "https://openalex.org/I4210135521"
+       ]
+      }
+     ],
+     "countries": [
+      "DE"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "H. C. Burger",
+     "raw_affiliation_strings": [
+      "Max Planck Institute for Intelligent Systems, Tubingen, Germany",
+      "Max Planck Institute for Intelligent Systems, Tu¨bingen, Germany"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Max Planck Institute for Intelligent Systems, Tubingen, Germany",
+       "institution_ids": [
+        "https://openalex.org/I4210135521"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Max Planck Institute for Intelligent Systems, Tu¨bingen, Germany",
+       "institution_ids": [
+        "https://openalex.org/I4210135521"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5060861978",
+      "display_name": "Christian J. Schuler",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4210135521",
+       "display_name": "Max Planck Institute for Intelligent Systems",
+       "ror": "https://ror.org/04fq9j139",
+       "country_code": "DE",
+       "type": "facility",
+       "lineage": [
+        "https://openalex.org/I149899117",
+        "https://openalex.org/I4210135521"
+       ]
+      }
+     ],
+     "countries": [
+      "DE"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "C. J. Schuler",
+     "raw_affiliation_strings": [
+      "Max Planck Institute for Intelligent Systems, Tubingen, Germany",
+      "Max Planck Institute for Intelligent Systems, Tu¨bingen, Germany"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Max Planck Institute for Intelligent Systems, Tubingen, Germany",
+       "institution_ids": [
+        "https://openalex.org/I4210135521"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Max Planck Institute for Intelligent Systems, Tu¨bingen, Germany",
+       "institution_ids": [
+        "https://openalex.org/I4210135521"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5062835183",
+      "display_name": "Stefan Harmeling",
+      "orcid": "https://orcid.org/0000-0001-9709-8160",
+      "observed_orcids": [
+       "https://orcid.org/0000-0001-9709-8160"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4210135521",
+       "display_name": "Max Planck Institute for Intelligent Systems",
+       "ror": "https://ror.org/04fq9j139",
+       "country_code": "DE",
+       "type": "facility",
+       "lineage": [
+        "https://openalex.org/I149899117",
+        "https://openalex.org/I4210135521"
+       ]
+      }
+     ],
+     "countries": [
+      "DE"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "S. Harmeling",
+     "raw_affiliation_strings": [
+      "Max Planck Institute for Intelligent Systems, Tubingen, Germany",
+      "Max Planck Institute for Intelligent Systems, Tu¨bingen, Germany"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Max Planck Institute for Intelligent Systems, Tubingen, Germany",
+       "institution_ids": [
+        "https://openalex.org/I4210135521"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Max Planck Institute for Intelligent Systems, Tu¨bingen, Germany",
+       "institution_ids": [
+        "https://openalex.org/I4210135521"
+       ]
+      }
+     ]
+    }
+   ],
+   "primary_location": {
+    "id": "doi:10.1109/cvpr.2012.6247952",
+    "doi": "https://doi.org/10.1109/cvpr.2012.6247952",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1109/cvpr.2012.6247952",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S4210176548",
+     "display_name": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+     "issn_l": "1063-6919",
+     "issn": [
+      "1063-6919",
+      "2332-564X",
+      "2575-7075"
+     ],
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "norway-1"
+     ],
+     "host_organization": "https://openalex.org/P4310319808",
+     "host_organization_name": "Institute of Electrical and Electronics Engineers",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310319808"
+     ],
+     "host_organization_lineage_names": [
+      "Institute of Electrical and Electronics Engineers"
+     ],
+     "type": "conference"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "2012 IEEE Conference on Computer Vision and Pattern Recognition",
+    "raw_type": "proceedings-article"
+   },
+   "best_oa_location": null,
+   "abstract_inverted_index": {
+    "Image": [
+     0
+    ],
+    "denoising": [
+     1,
+     22,
+     78
+    ],
+    "can": [
+     2
+    ],
+    "be": [
+     3
+    ],
+    "described": [
+     4
+    ],
+    "as": [
+     5,
+     105
+    ],
+    "the": [
+     6,
+     74,
+     96
+    ],
+    "problem": [
+     7
+    ],
+    "of": [
+     8,
+     91
+    ],
+    "mapping": [
+     9,
+     26,
+     39
+    ],
+    "from": [
+     10
+    ],
+    "a": [
+     11,
+     15,
+     42
+    ],
+    "noisy": [
+     12
+    ],
+    "image": [
+     13,
+     50,
+     66,
+     77
+    ],
+    "to": [
+     14,
+     36,
+     49,
+     71,
+     86
+    ],
+    "noise-free": [
+     16
+    ],
+    "image.": [
+     17
+    ],
+    "The": [
+     18
+    ],
+    "best": [
+     19
+    ],
+    "currently": [
+     20
+    ],
+    "available": [
+     21
+    ],
+    "methods": [
+     23
+    ],
+    "approximate": [
+     24
+    ],
+    "this": [
+     25,
+     32,
+     38,
+     53
+    ],
+    "with": [
+     27,
+     41,
+     73
+    ],
+    "cleverly": [
+     28
+    ],
+    "engineered": [
+     29
+    ],
+    "algorithms.": [
+     30
+    ],
+    "In": [
+     31
+    ],
+    "work": [
+     33
+    ],
+    "we": [
+     34,
+     58,
+     68,
+     101
+    ],
+    "attempt": [
+     35
+    ],
+    "learn": [
+     37
+    ],
+    "directly": [
+     40
+    ],
+    "plain": [
+     43
+    ],
+    "multi": [
+     44
+    ],
+    "layer": [
+     45
+    ],
+    "perceptron": [
+     46
+    ],
+    "(MLP)": [
+     47
+    ],
+    "applied": [
+     48
+    ],
+    "patches.": [
+     51
+    ],
+    "While": [
+     52
+    ],
+    "has": [
+     54
+    ],
+    "been": [
+     55
+    ],
+    "done": [
+     56
+    ],
+    "before,": [
+     57
+    ],
+    "will": [
+     59
+    ],
+    "show": [
+     60
+    ],
+    "that": [
+     61
+    ],
+    "by": [
+     62
+    ],
+    "training": [
+     63,
+     97
+    ],
+    "on": [
+     64
+    ],
+    "large": [
+     65
+    ],
+    "databases": [
+     67
+    ],
+    "are": [
+     69
+    ],
+    "able": [
+     70
+    ],
+    "compete": [
+     72
+    ],
+    "current": [
+     75
+    ],
+    "state-of-the-art": [
+     76
+    ],
+    "methods.": [
+     79
+    ],
+    "Furthermore,": [
+     80
+    ],
+    "our": [
+     81
+    ],
+    "approach": [
+     82
+    ],
+    "is": [
+     83
+    ],
+    "easily": [
+     84
+    ],
+    "adapted": [
+     85
+    ],
+    "less": [
+     87
+    ],
+    "extensively": [
+     88
+    ],
+    "studied": [
+     89
+    ],
+    "types": [
+     90
+    ],
+    "noise": [
+     92
+    ],
+    "(by": [
+     93
+    ],
+    "merely": [
+     94
+    ],
+    "exchanging": [
+     95
+    ],
+    "data),": [
+     98
+    ],
+    "for": [
+     99
+    ],
+    "which": [
+     100
+    ],
+    "achieve": [
+     102
+    ],
+    "excellent": [
+     103
+    ],
+    "results": [
+     104
+    ],
+    "well.": [
+     106
+    ]
+   }
+  },
+  {
+   "id": "https://openalex.org/W2280457329",
+   "doi": "https://doi.org/10.5201/ipol.2016.150",
+   "title": "Small Neural Networks can Denoise Image Textures Well: a Useful Complement to BM3D",
+   "publication_year": 2016,
+   "cited_by_count": 5,
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5100748006",
+      "display_name": "Yiqing Wang",
+      "orcid": "https://orcid.org/0000-0001-9641-9399",
+      "observed_orcids": [
+       "https://orcid.org/0000-0001-9641-9399",
+       "https://orcid.org/0000-0002-8397-2387",
+       "https://orcid.org/0000-0002-5626-8589"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I11559806",
+       "display_name": "École Normale Supérieure Paris-Saclay",
+       "ror": "https://ror.org/00hx6zz33",
+       "country_code": "FR",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I11559806",
+        "https://openalex.org/I277688954"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I4210150889",
+       "display_name": "Center for MathematicaL studies and their Applications",
+       "ror": "https://ror.org/05pabaz56",
+       "country_code": "FR",
+       "type": "facility",
+       "lineage": [
+        "https://openalex.org/I11559806",
+        "https://openalex.org/I1294671590",
+        "https://openalex.org/I277688954",
+        "https://openalex.org/I4210141950",
+        "https://openalex.org/I4210150889"
+       ]
+      }
+     ],
+     "countries": [
+      "FR"
+     ],
+     "is_corresponding": true,
+     "raw_author_name": "Yi-Qing Wang",
+     "raw_affiliation_strings": [
+      "CMLA , ENS Cachan , France",
+      "Ecole Normale Superieure Paris-Saclay"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "CMLA , ENS Cachan , France",
+       "institution_ids": [
+        "https://openalex.org/I11559806",
+        "https://openalex.org/I4210150889"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Ecole Normale Superieure Paris-Saclay",
+       "institution_ids": [
+        "https://openalex.org/I11559806"
+       ]
+      }
+     ]
+    }
+   ],
+   "primary_location": {
+    "id": "doi:10.5201/ipol.2016.150",
+    "doi": "https://doi.org/10.5201/ipol.2016.150",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.5201/ipol.2016.150",
+    "pdf_url": "http://www.ipol.im/pub/art/2016/150//article.pdf",
+    "source": {
+     "id": "https://openalex.org/S2764929239",
+     "display_name": "Image Processing On Line",
+     "issn_l": "2105-1232",
+     "issn": [
+      "2105-1232"
+     ],
+     "is_oa": true,
+     "is_in_doaj": true,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "doaj",
+      "dongbi-c",
+      "poland-20",
+      "russia-white-list-3"
+     ],
+     "host_organization": "https://openalex.org/P4310311362",
+     "host_organization_name": "Image Processing On Line",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310311362"
+     ],
+     "host_organization_lineage_names": [
+      "Image Processing On Line"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Image Processing On Line",
+    "raw_type": "journal-article"
+   },
+   "best_oa_location": {
+    "id": "doi:10.5201/ipol.2016.150",
+    "doi": "https://doi.org/10.5201/ipol.2016.150",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.5201/ipol.2016.150",
+    "pdf_url": "http://www.ipol.im/pub/art/2016/150//article.pdf",
+    "source": {
+     "id": "https://openalex.org/S2764929239",
+     "display_name": "Image Processing On Line",
+     "issn_l": "2105-1232",
+     "issn": [
+      "2105-1232"
+     ],
+     "is_oa": true,
+     "is_in_doaj": true,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "doaj",
+      "dongbi-c",
+      "poland-20",
+      "russia-white-list-3"
+     ],
+     "host_organization": "https://openalex.org/P4310311362",
+     "host_organization_name": "Image Processing On Line",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310311362"
+     ],
+     "host_organization_lineage_names": [
+      "Image Processing On Line"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Image Processing On Line",
+    "raw_type": "journal-article"
+   },
+   "abstract_inverted_index": {
+    "Recent": [
+     0
+    ],
+    "years": [
+     1
+    ],
+    "have": [
+     2
+    ],
+    "seen": [
+     3
+    ],
+    "a": [
+     4,
+     58,
+     86
+    ],
+    "surge": [
+     5
+    ],
+    "of": [
+     6,
+     41,
+     65,
+     73
+    ],
+    "interest": [
+     7
+    ],
+    "in": [
+     8,
+     17
+    ],
+    "deep": [
+     9
+    ],
+    "neural": [
+     10,
+     44,
+     74,
+     95
+    ],
+    "networks": [
+     11,
+     45,
+     75
+    ],
+    "fueled": [
+     12
+    ],
+    "by": [
+     13
+    ],
+    "their": [
+     14
+    ],
+    "successful": [
+     15
+    ],
+    "applications": [
+     16,
+     27
+    ],
+    "numerous": [
+     18
+    ],
+    "image": [
+     19
+    ],
+    "processing": [
+     20
+    ],
+    "and": [
+     21,
+     55,
+     93
+    ],
+    "computer": [
+     22
+    ],
+    "vision": [
+     23
+    ],
+    "tasks.": [
+     24
+    ],
+    "However,": [
+     25
+    ],
+    "such": [
+     26
+    ],
+    "typically": [
+     28
+    ],
+    "come": [
+     29
+    ],
+    "with": [
+     30,
+     71
+    ],
+    "huge": [
+     31
+    ],
+    "computational": [
+     32
+    ],
+    "loads.": [
+     33
+    ],
+    "In": [
+     34,
+     49
+    ],
+    "this": [
+     35
+    ],
+    "article,": [
+     36
+    ],
+    "we": [
+     37,
+     51
+    ],
+    "explore": [
+     38
+    ],
+    "the": [
+     39,
+     63
+    ],
+    "possibility": [
+     40
+    ],
+    "using": [
+     42
+    ],
+    "small": [
+     43,
+     94
+    ],
+    "to": [
+     46,
+     84
+    ],
+    "denoise": [
+     47
+    ],
+    "images.": [
+     48
+    ],
+    "particular,": [
+     50
+    ],
+    "present": [
+     52
+    ],
+    "SSaNN": [
+     53
+    ],
+    "(Self-Similarity": [
+     54
+    ],
+    "Neural": [
+     56
+    ],
+    "Networks),": [
+     57
+    ],
+    "denoising": [
+     59
+    ],
+    "algorithm": [
+     60,
+     81
+    ],
+    "which": [
+     61
+    ],
+    "combines": [
+     62
+    ],
+    "strength": [
+     64
+    ],
+    "BM3D": [
+     66,
+     92
+    ],
+    "on": [
+     67,
+     76
+    ],
+    "large-scale": [
+     68
+    ],
+    "structured": [
+     69
+    ],
+    "patterns": [
+     70
+    ],
+    "that": [
+     72
+    ],
+    "small-scale": [
+     77
+    ],
+    "texture": [
+     78
+    ],
+    "content.": [
+     79
+    ],
+    "This": [
+     80
+    ],
+    "is": [
+     82
+    ],
+    "able": [
+     83
+    ],
+    "produce": [
+     85
+    ],
+    "better": [
+     87
+    ],
+    "overall": [
+     88
+    ],
+    "recovery": [
+     89
+    ],
+    "than": [
+     90
+    ],
+    "both": [
+     91
+    ],
+    "networks.": [
+     96
+    ]
+   }
+  },
+  {
+   "id": "https://openalex.org/W4283021596",
+   "doi": "https://doi.org/10.1049/cit2.12110",
+   "title": "A robust deformed convolutional neural network (CNN) for image denoising",
+   "publication_year": 2022,
+   "cited_by_count": 247,
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5100360381",
+      "display_name": "Qi Zhang",
+      "orcid": "https://orcid.org/0000-0002-9119-9523",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-9119-9523"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I204983213",
+       "display_name": "Harbin Institute of Technology",
+       "ror": "https://ror.org/01yqg2h08",
+       "country_code": "CN",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I204983213"
+       ]
+      }
+     ],
+     "countries": [
+      "CN"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Qi Zhang",
+     "raw_affiliation_strings": [
+      "School of Economics and Management Harbin Institute of Technology at Weihai  Weihai China",
+      "School of Economics and Management, Harbin Institute of Technology at Weihai, Weihai, China"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "School of Economics and Management Harbin Institute of Technology at Weihai  Weihai China",
+       "institution_ids": [
+        "https://openalex.org/I204983213"
+       ]
+      },
+      {
+       "raw_affiliation_string": "School of Economics and Management, Harbin Institute of Technology at Weihai, Weihai, China",
+       "institution_ids": [
+        "https://openalex.org/I204983213"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5016074140",
+      "display_name": "Jingyu Xiao",
+      "orcid": "https://orcid.org/0000-0002-4608-9923",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-4608-9923"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I139660479",
+       "display_name": "Central South University",
+       "ror": "https://ror.org/00f1zfq44",
+       "country_code": "CN",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I139660479"
+       ]
+      }
+     ],
+     "countries": [
+      "CN"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Jingyu Xiao",
+     "raw_affiliation_strings": [
+      "School of Computer Science Central South University  Changsha China",
+      "School of Computer Science, Central South University, Changsha, China"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "School of Computer Science Central South University  Changsha China",
+       "institution_ids": [
+        "https://openalex.org/I139660479"
+       ]
+      },
+      {
+       "raw_affiliation_string": "School of Computer Science, Central South University, Changsha, China",
+       "institution_ids": [
+        "https://openalex.org/I139660479"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5010248697",
+      "display_name": "Chunwei Tian",
+      "orcid": "https://orcid.org/0000-0002-6058-5077",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-6058-5077",
+       "https://orcid.org/0000-0002-5610-8147"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I17145004",
+       "display_name": "Northwestern Polytechnical University",
+       "ror": "https://ror.org/01y0j0j86",
+       "country_code": "CN",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I17145004"
+       ]
+      }
+     ],
+     "countries": [
+      "CN"
+     ],
+     "is_corresponding": true,
+     "raw_author_name": "Chunwei Tian",
+     "raw_affiliation_strings": [
+      "Research &amp; Development Institute Northwestern Polytechnical University  Shenzhen China",
+      "School of Software Northwestern Polytechnical University  Xi'an Shaanxi China",
+      "Yangtze River Delta Research Institute Northwestern Polytechnical University  Taicang China",
+      "School of Software, Northwestern Polytechnical University, Xi'an, Shaanxi, China"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0002-6058-5077",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Research &amp; Development Institute Northwestern Polytechnical University  Shenzhen China",
+       "institution_ids": [
+        "https://openalex.org/I17145004"
+       ]
+      },
+      {
+       "raw_affiliation_string": "School of Software Northwestern Polytechnical University  Xi'an Shaanxi China",
+       "institution_ids": [
+        "https://openalex.org/I17145004"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Yangtze River Delta Research Institute Northwestern Polytechnical University  Taicang China",
+       "institution_ids": [
+        "https://openalex.org/I17145004"
+       ]
+      },
+      {
+       "raw_affiliation_string": "School of Software, Northwestern Polytechnical University, Xi'an, Shaanxi, China",
+       "institution_ids": [
+        "https://openalex.org/I17145004"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5000640263",
+      "display_name": "Jerry Chun‐Wei Lin",
+      "orcid": "https://orcid.org/0000-0001-8768-9709",
+      "observed_orcids": [
+       "https://orcid.org/0000-0001-8768-9709",
+       "https://orcid.org/0000-0003-0920-0060",
+       "https://orcid.org/0000-0003-1778-9426"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I179863766",
+       "display_name": "Western Norway University of Applied Sciences",
+       "ror": "https://ror.org/05phns765",
+       "country_code": "NO",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I179863766"
+       ]
+      }
+     ],
+     "countries": [
+      "NO"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Jerry Chun‐Wei Lin",
+     "raw_affiliation_strings": [
+      "Department of Computer Science, Electrical Engineering and Mathematical Sciences Western Norway University of Applied Sciences  Bergen Norway",
+      "Department of Computer Science, Electrical Engineering and Mathematical Sciences, Western Norway University of Applied Sciences, Bergen, Norway"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Computer Science, Electrical Engineering and Mathematical Sciences Western Norway University of Applied Sciences  Bergen Norway",
+       "institution_ids": [
+        "https://openalex.org/I179863766"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Department of Computer Science, Electrical Engineering and Mathematical Sciences, Western Norway University of Applied Sciences, Bergen, Norway",
+       "institution_ids": [
+        "https://openalex.org/I179863766"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5100764178",
+      "display_name": "Shichao Zhang",
+      "orcid": "https://orcid.org/0000-0001-9981-2970",
+      "observed_orcids": [
+       "https://orcid.org/0000-0001-9981-2970",
+       "https://orcid.org/0000-0003-4052-1823"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I139660479",
+       "display_name": "Central South University",
+       "ror": "https://ror.org/00f1zfq44",
+       "country_code": "CN",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I139660479"
+       ]
+      }
+     ],
+     "countries": [
+      "CN"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Shichao Zhang",
+     "raw_affiliation_strings": [
+      "School of Computer Science Central South University  Changsha China",
+      "School of Computer Science, Central South University, Changsha, China"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "School of Computer Science Central South University  Changsha China",
+       "institution_ids": [
+        "https://openalex.org/I139660479"
+       ]
+      },
+      {
+       "raw_affiliation_string": "School of Computer Science, Central South University, Changsha, China",
+       "institution_ids": [
+        "https://openalex.org/I139660479"
+       ]
+      }
+     ]
+    }
+   ],
+   "primary_location": {
+    "id": "doi:10.1049/cit2.12110",
+    "doi": "https://doi.org/10.1049/cit2.12110",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1049/cit2.12110",
+    "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1049/cit2.12110",
+    "source": {
+     "id": "https://openalex.org/S2898415742",
+     "display_name": "CAAI Transactions on Intelligence Technology",
+     "issn_l": "2468-2322",
+     "issn": [
+      "2468-2322",
+      "2468-6557"
+     ],
+     "is_oa": true,
+     "is_in_doaj": true,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "doaj",
+      "dongbi-c",
+      "norway-1",
+      "poland-20",
+      "russia-white-list-1"
+     ],
+     "host_organization": "https://openalex.org/P4310311714",
+     "host_organization_name": "Institution of Engineering and Technology",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310311714"
+     ],
+     "host_organization_lineage_names": [
+      "Institution of Engineering and Technology"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by-nc-nd",
+    "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "CAAI Transactions on Intelligence Technology",
+    "raw_type": "journal-article"
+   },
+   "best_oa_location": {
+    "id": "doi:10.1049/cit2.12110",
+    "doi": "https://doi.org/10.1049/cit2.12110",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1049/cit2.12110",
+    "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1049/cit2.12110",
+    "source": {
+     "id": "https://openalex.org/S2898415742",
+     "display_name": "CAAI Transactions on Intelligence Technology",
+     "issn_l": "2468-2322",
+     "issn": [
+      "2468-2322",
+      "2468-6557"
+     ],
+     "is_oa": true,
+     "is_in_doaj": true,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "doaj",
+      "dongbi-c",
+      "norway-1",
+      "poland-20",
+      "russia-white-list-1"
+     ],
+     "host_organization": "https://openalex.org/P4310311714",
+     "host_organization_name": "Institution of Engineering and Technology",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310311714"
+     ],
+     "host_organization_lineage_names": [
+      "Institution of Engineering and Technology"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by-nc-nd",
+    "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "CAAI Transactions on Intelligence Technology",
+    "raw_type": "journal-article"
+   },
+   "abstract_inverted_index": {
+    "Abstract": [
+     0
+    ],
+    "Due": [
+     1
+    ],
+    "to": [
+     2,
+     97,
+     143
+    ],
+    "strong": [
+     3
+    ],
+    "learning": [
+     4,
+     128
+    ],
+    "ability,": [
+     5
+    ],
+    "convolutional": [
+     6,
+     17,
+     94,
+     117
+    ],
+    "neural": [
+     7
+    ],
+    "networks": [
+     8
+    ],
+    "(CNNs)": [
+     9
+    ],
+    "have": [
+     10
+    ],
+    "been": [
+     11
+    ],
+    "developed": [
+     12
+    ],
+    "in": [
+     13,
+     25,
+     33,
+     57,
+     177
+    ],
+    "image": [
+     14,
+     34
+    ],
+    "denoising.": [
+     15,
+     35
+    ],
+    "However,": [
+     16
+    ],
+    "operations": [
+     18
+    ],
+    "may": [
+     19,
+     29
+    ],
+    "change": [
+     20
+    ],
+    "original": [
+     21
+    ],
+    "distributions": [
+     22
+    ],
+    "of": [
+     23,
+     38,
+     99,
+     116,
+     130,
+     148,
+     179
+    ],
+    "noise": [
+     24,
+     85
+    ],
+    "corrupted": [
+     26
+    ],
+    "images,": [
+     27
+    ],
+    "which": [
+     28,
+     124
+    ],
+    "increase": [
+     30
+    ],
+    "training": [
+     31
+    ],
+    "difficulty": [
+     32
+    ],
+    "Using": [
+     36
+    ],
+    "relations": [
+     37,
+     98
+    ],
+    "surrounding": [
+     39,
+     100
+    ],
+    "pixels": [
+     40
+    ],
+    "can": [
+     41,
+     81,
+     104,
+     125,
+     185
+    ],
+    "effectively": [
+     42
+    ],
+    "resolve": [
+     43
+    ],
+    "this": [
+     44,
+     58
+    ],
+    "problem.": [
+     45
+    ],
+    "Inspired": [
+     46
+    ],
+    "by": [
+     47
+    ],
+    "that,": [
+     48
+    ],
+    "we": [
+     49,
+     160
+    ],
+    "propose": [
+     50
+    ],
+    "a": [
+     51,
+     66,
+     75,
+     88,
+     109,
+     113,
+     156,
+     162
+    ],
+    "robust": [
+     52
+    ],
+    "deformed": [
+     53
+    ],
+    "denoising": [
+     54,
+     164,
+     171,
+     175
+    ],
+    "CNN": [
+     55
+    ],
+    "(RDDCNN)": [
+     56
+    ],
+    "paper.": [
+     59
+    ],
+    "The": [
+     60,
+     79,
+     102
+    ],
+    "proposed": [
+     61,
+     132
+    ],
+    "RDDCNN": [
+     62
+    ],
+    "contains": [
+     63
+    ],
+    "three": [
+     64
+    ],
+    "blocks:": [
+     65
+    ],
+    "deformable": [
+     67,
+     89
+    ],
+    "block": [
+     68,
+     72,
+     77
+    ],
+    "(DB),": [
+     69
+    ],
+    "an": [
+     70
+    ],
+    "enhanced": [
+     71
+    ],
+    "(EB)": [
+     73
+    ],
+    "and": [
+     74,
+     92,
+     112,
+     122,
+     154,
+     181
+    ],
+    "residual": [
+     76
+    ],
+    "(RB).": [
+     78
+    ],
+    "DB": [
+     80
+    ],
+    "extract": [
+     82
+    ],
+    "more": [
+     83
+    ],
+    "representative": [
+     84
+    ],
+    "features": [
+     86
+    ],
+    "via": [
+     87
+    ],
+    "learnable": [
+     90
+    ],
+    "kernel": [
+     91
+    ],
+    "stacked": [
+     93
+    ],
+    "architecture,": [
+     95
+    ],
+    "according": [
+     96
+    ],
+    "pixels.": [
+     101
+    ],
+    "EB": [
+     103
+    ],
+    "facilitate": [
+     105
+    ],
+    "contextual": [
+     106
+    ],
+    "interaction": [
+     107
+    ],
+    "through": [
+     108
+    ],
+    "dilated": [
+     110
+    ],
+    "convolution": [
+     111
+    ],
+    "novel": [
+     114
+    ],
+    "combination": [
+     115
+    ],
+    "layers,": [
+     118
+    ],
+    "batch": [
+     119
+    ],
+    "normalisation": [
+     120
+    ],
+    "(BN)": [
+     121
+    ],
+    "ReLU,": [
+     123
+    ],
+    "enhance": [
+     126,
+     144
+    ],
+    "the": [
+     127,
+     131,
+     139,
+     145
+    ],
+    "ability": [
+     129,
+     147
+    ],
+    "RDDCNN.": [
+     133
+    ],
+    "To": [
+     134
+    ],
+    "address": [
+     135
+    ],
+    "long‐term": [
+     136
+    ],
+    "dependency": [
+     137
+    ],
+    "problem,": [
+     138
+    ],
+    "RB": [
+     140
+    ],
+    "is": [
+     141
+    ],
+    "used": [
+     142
+    ],
+    "memory": [
+     146
+    ],
+    "shallow": [
+     149
+    ],
+    "layer": [
+     150
+    ],
+    "on": [
+     151
+    ],
+    "deep": [
+     152
+    ],
+    "layers": [
+     153
+    ],
+    "construct": [
+     155
+    ],
+    "clean": [
+     157
+    ],
+    "image.": [
+     158
+    ],
+    "Besides,": [
+     159
+    ],
+    "implement": [
+     161
+    ],
+    "blind": [
+     163
+    ],
+    "model.": [
+     165
+    ],
+    "Experimental": [
+     166
+    ],
+    "results": [
+     167
+    ],
+    "demonstrate": [
+     168
+    ],
+    "that": [
+     169
+    ],
+    "our": [
+     170
+    ],
+    "model": [
+     172
+    ],
+    "outperforms": [
+     173
+    ],
+    "popular": [
+     174
+    ],
+    "methods": [
+     176
+    ],
+    "terms": [
+     178
+    ],
+    "qualitative": [
+     180
+    ],
+    "quantitative": [
+     182
+    ],
+    "analysis.": [
+     183
+    ],
+    "Codes": [
+     184
+    ],
+    "be": [
+     186
+    ],
+    "obtained": [
+     187
+    ],
+    "at": [
+     188
+    ],
+    "https://github.com/hellloxiaotian/RDDCNN": [
+     189
+    ],
+    ".": [
+     190
+    ]
+   }
+  },
+  {
+   "id": "https://openalex.org/W2550616896",
+   "doi": "https://doi.org/10.1109/cvpr.2017.623",
+   "title": "Non-local Color Image Denoising with Convolutional Neural Networks",
+   "publication_year": 2017,
+   "cited_by_count": 375,
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5060981307",
+      "display_name": "Stamatios Lefkimmiatis",
+      "orcid": "https://orcid.org/0000-0002-3813-4464",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-3813-4464"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I125989756",
+       "display_name": "Skolkovo Institute of Science and Technology",
+       "ror": "https://ror.org/03f9nc143",
+       "country_code": "RU",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I125989756"
+       ]
+      }
+     ],
+     "countries": [
+      "RU"
+     ],
+     "is_corresponding": true,
+     "raw_author_name": "Stamatios Lefkimmiatis",
+     "raw_affiliation_strings": [
+      "Skolkovo Institute of Science and Technology (Skoltech), Moscow, Russia",
+      "[Skolkovo Institute of Science and Technology (Skoltech), Moscow, Russia]"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Skolkovo Institute of Science and Technology (Skoltech), Moscow, Russia",
+       "institution_ids": [
+        "https://openalex.org/I125989756"
+       ]
+      },
+      {
+       "raw_affiliation_string": "[Skolkovo Institute of Science and Technology (Skoltech), Moscow, Russia]",
+       "institution_ids": [
+        "https://openalex.org/I125989756"
+       ]
+      }
+     ]
+    }
+   ],
+   "primary_location": {
+    "id": "doi:10.1109/cvpr.2017.623",
+    "doi": "https://doi.org/10.1109/cvpr.2017.623",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1109/cvpr.2017.623",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S4210176548",
+     "display_name": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+     "issn_l": "1063-6919",
+     "issn": [
+      "1063-6919",
+      "2332-564X",
+      "2575-7075"
+     ],
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "norway-1"
+     ],
+     "host_organization": "https://openalex.org/P4310319808",
+     "host_organization_name": "Institute of Electrical and Electronics Engineers",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310319808"
+     ],
+     "host_organization_lineage_names": [
+      "Institute of Electrical and Electronics Engineers"
+     ],
+     "type": "conference"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "raw_type": "proceedings-article"
+   },
+   "best_oa_location": {
+    "id": "pmh:oai:arXiv.org:1611.06757",
+    "doi": null,
+    "is_oa": true,
+    "landing_page_url": "http://arxiv.org/abs/1611.06757",
+    "pdf_url": "https://arxiv.org/pdf/1611.06757",
+    "source": {
+     "id": "https://openalex.org/S4306400194",
+     "display_name": "arXiv (Cornell University)",
+     "issn_l": "2331-8422",
+     "issn": [
+      "2331-8422"
+     ],
+     "is_oa": true,
+     "is_in_doaj": false,
+     "is_core": false,
+     "listed_in": [],
+     "host_organization": "https://openalex.org/I205783295",
+     "host_organization_name": "Cornell University",
+     "host_organization_lineage": [
+      "https://openalex.org/I205783295"
+     ],
+     "host_organization_lineage_names": [],
+     "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": null,
+    "raw_type": "text"
+   },
+   "abstract_inverted_index": {
+    "We": [
+     0,
+     45
+    ],
+    "propose": [
+     1
+    ],
+    "a": [
+     2,
+     17,
+     135
+    ],
+    "novel": [
+     3
+    ],
+    "deep": [
+     4,
+     52,
+     128,
+     170
+    ],
+    "network": [
+     5,
+     30,
+     123,
+     129
+    ],
+    "architecture": [
+     6
+    ],
+    "for": [
+     7,
+     23,
+     92,
+     97
+    ],
+    "grayscale": [
+     8,
+     93
+    ],
+    "and": [
+     9,
+     50,
+     58,
+     94,
+     172
+    ],
+    "color": [
+     10,
+     95
+    ],
+    "image": [
+     11,
+     19
+    ],
+    "denoising": [
+     12,
+     89
+    ],
+    "that": [
+     13,
+     35,
+     54,
+     80,
+     108
+    ],
+    "is": [
+     14,
+     104,
+     149
+    ],
+    "based": [
+     15
+    ],
+    "on": [
+     16,
+     47,
+     70,
+     118,
+     166
+    ],
+    "non-local": [
+     18,
+     39,
+     56,
+     83,
+     141
+    ],
+    "model.": [
+     20
+    ],
+    "Our": [
+     21
+    ],
+    "motivation": [
+     22
+    ],
+    "the": [
+     24,
+     28,
+     37,
+     60,
+     71,
+     81,
+     86,
+     99,
+     119,
+     122,
+     139,
+     163
+    ],
+    "overall": [
+     25
+    ],
+    "design": [
+     26
+    ],
+    "of": [
+     27,
+     42,
+     121,
+     138,
+     150,
+     162
+    ],
+    "proposed": [
+     29,
+     82,
+     140
+    ],
+    "stems": [
+     31
+    ],
+    "from": [
+     32,
+     66
+    ],
+    "variational": [
+     33
+    ],
+    "methods": [
+     34
+    ],
+    "exploit": [
+     36
+    ],
+    "inherent": [
+     38,
+     181
+    ],
+    "self-similarity": [
+     40
+    ],
+    "property": [
+     41
+    ],
+    "natural": [
+     43
+    ],
+    "images.": [
+     44
+    ],
+    "build": [
+     46
+    ],
+    "this": [
+     48,
+     109
+    ],
+    "concept": [
+     49
+    ],
+    "introduce": [
+     51
+    ],
+    "networks": [
+     53
+    ],
+    "perform": [
+     55
+    ],
+    "processing": [
+     57
+    ],
+    "at": [
+     59,
+     114
+    ],
+    "same": [
+     61
+    ],
+    "time": [
+     62
+    ],
+    "they": [
+     63
+    ],
+    "significantly": [
+     64
+    ],
+    "benefit": [
+     65
+    ],
+    "discriminative": [
+     67
+    ],
+    "learning.": [
+     68
+    ],
+    "Experiments": [
+     69
+    ],
+    "Berkeley": [
+     72
+    ],
+    "segmentation": [
+     73
+    ],
+    "dataset,": [
+     74
+    ],
+    "comparing": [
+     75
+    ],
+    "several": [
+     76
+    ],
+    "state-of-the-art": [
+     77
+    ],
+    "methods,": [
+     78
+    ],
+    "show": [
+     79
+    ],
+    "models": [
+     84,
+     142,
+     157
+    ],
+    "achieve": [
+     85
+    ],
+    "best": [
+     87
+    ],
+    "reported": [
+     88
+    ],
+    "performance": [
+     90,
+     112
+    ],
+    "both": [
+     91
+    ],
+    "images": [
+     96
+    ],
+    "all": [
+     98
+    ],
+    "tested": [
+     100
+    ],
+    "noise": [
+     101
+    ],
+    "levels.": [
+     102
+    ],
+    "It": [
+     103
+    ],
+    "also": [
+     105
+    ],
+    "worth": [
+     106
+    ],
+    "noting": [
+     107
+    ],
+    "increase": [
+     110
+    ],
+    "in": [
+     111,
+     169
+    ],
+    "comes": [
+     113
+    ],
+    "no": [
+     115
+    ],
+    "extra": [
+     116
+    ],
+    "cost": [
+     117
+    ],
+    "capacity": [
+     120
+    ],
+    "compared": [
+     124
+    ],
+    "to": [
+     125,
+     143,
+     158,
+     176
+    ],
+    "existing": [
+     126
+    ],
+    "alternative": [
+     127
+    ],
+    "architectures.": [
+     130
+    ],
+    "In": [
+     131
+    ],
+    "addition,": [
+     132
+    ],
+    "we": [
+     133
+    ],
+    "highlight": [
+     134
+    ],
+    "direct": [
+     136
+    ],
+    "link": [
+     137
+    ],
+    "convolutional": [
+     144
+    ],
+    "neural": [
+     145
+    ],
+    "networks.": [
+     146
+    ],
+    "This": [
+     147
+    ],
+    "connection": [
+     148
+    ],
+    "significant": [
+     151
+    ],
+    "importance": [
+     152
+    ],
+    "since": [
+     153
+    ],
+    "it": [
+     154
+    ],
+    "allows": [
+     155
+    ],
+    "our": [
+     156
+    ],
+    "take": [
+     159
+    ],
+    "full": [
+     160
+    ],
+    "advantage": [
+     161
+    ],
+    "latest": [
+     164
+    ],
+    "advances": [
+     165
+    ],
+    "GPU": [
+     167
+    ],
+    "computing": [
+     168
+    ],
+    "learning": [
+     171
+    ],
+    "makes": [
+     173
+    ],
+    "them": [
+     174
+    ],
+    "amenable": [
+     175
+    ],
+    "efficient": [
+     177
+    ],
+    "implementations": [
+     178
+    ],
+    "through": [
+     179
+    ],
+    "their": [
+     180
+    ],
+    "parallelism.": [
+     182
+    ]
+   }
+  },
+  {
+   "id": "https://openalex.org/W2947391323",
+   "doi": "https://doi.org/10.1109/icip.2019.8803367",
+   "title": "Image Denoising with Graph-Convolutional Neural Networks",
+   "publication_year": 2019,
+   "cited_by_count": 57,
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5058182410",
+      "display_name": "Diego Valsesia",
+      "orcid": "https://orcid.org/0000-0003-1997-2910",
+      "observed_orcids": [
+       "https://orcid.org/0000-0003-1997-2910"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I177477856",
+       "display_name": "Politecnico di Torino",
+       "ror": "https://ror.org/00bgk9508",
+       "country_code": "IT",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I177477856"
+       ]
+      }
+     ],
+     "countries": [
+      "IT"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Diego Valsesia",
+     "raw_affiliation_strings": [
+      "Politecnico di Torino, Turin, Italy",
+      "Department of Electronics and Telecommunications,Politecnico di Torino,Italy"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Politecnico di Torino, Turin, Italy",
+       "institution_ids": [
+        "https://openalex.org/I177477856"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Department of Electronics and Telecommunications,Politecnico di Torino,Italy",
+       "institution_ids": [
+        "https://openalex.org/I177477856"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5062328236",
+      "display_name": "Giulia Fracastoro",
+      "orcid": "https://orcid.org/0000-0001-8495-1097",
+      "observed_orcids": [
+       "https://orcid.org/0000-0001-8495-1097"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I177477856",
+       "display_name": "Politecnico di Torino",
+       "ror": "https://ror.org/00bgk9508",
+       "country_code": "IT",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I177477856"
+       ]
+      }
+     ],
+     "countries": [
+      "IT"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Giulia Fracastoro",
+     "raw_affiliation_strings": [
+      "Politecnico di Torino, Turin, Italy",
+      "Department of Electronics and Telecommunications,Politecnico di Torino,Italy"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Politecnico di Torino, Turin, Italy",
+       "institution_ids": [
+        "https://openalex.org/I177477856"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Department of Electronics and Telecommunications,Politecnico di Torino,Italy",
+       "institution_ids": [
+        "https://openalex.org/I177477856"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5034486931",
+      "display_name": "Enrico Magli",
+      "orcid": "https://orcid.org/0000-0002-0901-0251",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-0901-0251"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I177477856",
+       "display_name": "Politecnico di Torino",
+       "ror": "https://ror.org/00bgk9508",
+       "country_code": "IT",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I177477856"
+       ]
+      }
+     ],
+     "countries": [
+      "IT"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Enrico Magli",
+     "raw_affiliation_strings": [
+      "Politecnico di Torino, Turin, Italy",
+      "Department of Electronics and Telecommunications,Politecnico di Torino,Italy"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Politecnico di Torino, Turin, Italy",
+       "institution_ids": [
+        "https://openalex.org/I177477856"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Department of Electronics and Telecommunications,Politecnico di Torino,Italy",
+       "institution_ids": [
+        "https://openalex.org/I177477856"
+       ]
+      }
+     ]
+    }
+   ],
+   "primary_location": {
+    "id": "doi:10.1109/icip.2019.8803367",
+    "doi": "https://doi.org/10.1109/icip.2019.8803367",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1109/icip.2019.8803367",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S4210223844",
+     "display_name": "Proceedings - International Conference on Image Processing",
+     "issn_l": "1522-4880",
+     "issn": [
+      "1522-4880",
+      "2381-8549"
+     ],
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "jufo-1",
+      "norway-1"
+     ],
+     "host_organization": "https://openalex.org/P4310319808",
+     "host_organization_name": "Institute of Electrical and Electronics Engineers",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310319808"
+     ],
+     "host_organization_lineage_names": [
+      "Institute of Electrical and Electronics Engineers"
+     ],
+     "type": "conference"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "2019 IEEE International Conference on Image Processing (ICIP)",
+    "raw_type": "proceedings-article"
+   },
+   "best_oa_location": {
+    "id": "pmh:oai:arXiv.org:1905.12281",
+    "doi": null,
+    "is_oa": true,
+    "landing_page_url": "http://arxiv.org/abs/1905.12281",
+    "pdf_url": "https://arxiv.org/pdf/1905.12281",
+    "source": {
+     "id": "https://openalex.org/S4306400194",
+     "display_name": "arXiv (Cornell University)",
+     "issn_l": "2331-8422",
+     "issn": [
+      "2331-8422"
+     ],
+     "is_oa": true,
+     "is_in_doaj": false,
+     "is_core": false,
+     "listed_in": [],
+     "host_organization": "https://openalex.org/I205783295",
+     "host_organization_name": "Cornell University",
+     "host_organization_lineage": [
+      "https://openalex.org/I205783295"
+     ],
+     "host_organization_lineage_names": [],
+     "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": null,
+    "raw_type": "text"
+   },
+   "abstract_inverted_index": {
+    "Recovering": [
+     0
+    ],
+    "an": [
+     1
+    ],
+    "image": [
+     2
+    ],
+    "from": [
+     3
+    ],
+    "a": [
+     4,
+     8,
+     68
+    ],
+    "noisy": [
+     5
+    ],
+    "observation": [
+     6
+    ],
+    "is": [
+     7
+    ],
+    "key": [
+     9
+    ],
+    "problem": [
+     10
+    ],
+    "in": [
+     11,
+     76,
+     91,
+     99
+    ],
+    "signal": [
+     12
+    ],
+    "processing.": [
+     13
+    ],
+    "Recently,": [
+     14
+    ],
+    "it": [
+     15
+    ],
+    "has": [
+     16
+    ],
+    "been": [
+     17
+    ],
+    "shown": [
+     18
+    ],
+    "that": [
+     19,
+     72,
+     112
+    ],
+    "data-driven": [
+     20
+    ],
+    "approaches": [
+     21
+    ],
+    "employing": [
+     22
+    ],
+    "convolutional": [
+     23,
+     47,
+     69,
+     118
+    ],
+    "neural": [
+     24,
+     70,
+     119
+    ],
+    "networks": [
+     25,
+     120
+    ],
+    "can": [
+     26,
+     33
+    ],
+    "outperform": [
+     27
+    ],
+    "classical": [
+     28,
+     117
+    ],
+    "model-based": [
+     29
+    ],
+    "techniques,": [
+     30
+    ],
+    "because": [
+     31
+    ],
+    "they": [
+     32,
+     49
+    ],
+    "capture": [
+     34
+    ],
+    "more": [
+     35
+    ],
+    "powerful": [
+     36
+    ],
+    "and": [
+     37,
+     82
+    ],
+    "discriminative": [
+     38
+    ],
+    "features.": [
+     39
+    ],
+    "However,": [
+     40
+    ],
+    "since": [
+     41
+    ],
+    "these": [
+     42
+    ],
+    "methods": [
+     43
+    ],
+    "are": [
+     44,
+     50
+    ],
+    "based": [
+     45
+    ],
+    "on": [
+     46
+    ],
+    "operations,": [
+     48
+    ],
+    "only": [
+     51
+    ],
+    "capable": [
+     52
+    ],
+    "of": [
+     53
+    ],
+    "exploiting": [
+     54
+    ],
+    "local": [
+     55,
+     81
+    ],
+    "similarities": [
+     56
+    ],
+    "without": [
+     57
+    ],
+    "taking": [
+     58
+    ],
+    "into": [
+     59
+    ],
+    "account": [
+     60
+    ],
+    "non-local": [
+     61,
+     83
+    ],
+    "self-similarities.": [
+     62
+    ],
+    "In": [
+     63
+    ],
+    "this": [
+     64
+    ],
+    "paper": [
+     65
+    ],
+    "we": [
+     66
+    ],
+    "propose": [
+     67
+    ],
+    "network": [
+     71
+    ],
+    "employs": [
+     73
+    ],
+    "graph-convolutional": [
+     74,
+     86
+    ],
+    "layers": [
+     75,
+     87
+    ],
+    "order": [
+     77
+    ],
+    "to": [
+     78,
+     95
+    ],
+    "exploit": [
+     79
+    ],
+    "both": [
+     80
+    ],
+    "similarities.": [
+     84
+    ],
+    "The": [
+     85,
+     108
+    ],
+    "dynamically": [
+     88
+    ],
+    "construct": [
+     89
+    ],
+    "neighborhoods": [
+     90
+    ],
+    "the": [
+     92,
+     100,
+     105,
+     113,
+     122
+    ],
+    "feature": [
+     93,
+     101
+    ],
+    "space": [
+     94
+    ],
+    "detect": [
+     96
+    ],
+    "latent": [
+     97
+    ],
+    "correlations": [
+     98
+    ],
+    "maps": [
+     102
+    ],
+    "produced": [
+     103
+    ],
+    "by": [
+     104
+    ],
+    "hidden": [
+     106
+    ],
+    "layers.": [
+     107
+    ],
+    "experimental": [
+     109
+    ],
+    "results": [
+     110
+    ],
+    "show": [
+     111
+    ],
+    "proposed": [
+     114
+    ],
+    "architecture": [
+     115
+    ],
+    "outperforms": [
+     116
+    ],
+    "for": [
+     121
+    ],
+    "denoising": [
+     123
+    ],
+    "task.": [
+     124
+    ]
+   }
+  }
+ ],
+ "group_by": []
+}

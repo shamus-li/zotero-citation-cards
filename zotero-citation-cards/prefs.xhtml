@@ -1,0 +1,18 @@
+<vbox id="citecard-pane" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" xmlns:html="http://www.w3.org/1999/xhtml">
+  <groupbox>
+    <label><html:h2>Google Scholar</html:h2></label>
+    <description>Cards come from Google Scholar when you're signed in to Google here, and from OpenAlex otherwise.</description>
+    <label id="citecard-scholar-status"/>
+    <description id="citecard-scholar-warning" hidden="true">Google Scholar's recent replies weren't in the format the plugin expects, so cards are coming from OpenAlex. The plugin may need an update.</description>
+    <hbox>
+      <button id="citecard-scholar-button" label="Sign in to Google Scholar"/>
+      <button id="citecard-scholar-sign-out" label="Sign out" hidden="true"/>
+    </hbox>
+  </groupbox>
+  <groupbox>
+    <label><html:h2>OpenAlex</html:h2></label>
+    <label control="citecard-openalex-key" value="OpenAlex API key"/>
+    <html:input id="citecard-openalex-key" type="text" preference="extensions.citecard.openalexKey"/>
+    <description>Without a key, OpenAlex allows about 100 lookups a day, shared with everyone on your network. A free key from openalex.org/settings/api allows about 1,000.</description>
+  </groupbox>
+</vbox>
