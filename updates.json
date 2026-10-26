@@ -3,8 +3,8 @@
     "citation-cards@shamus-li.github.io": {
       "updates": [
         {
-          "version": "0.1.0",
-          "update_link": "https://github.com/shamus-li/zotero-citation-cards/releases/download/v0.1.0/citation-cards.xpi",
+          "version": "0.1.1",
+          "update_link": "https://github.com/shamus-li/zotero-citation-cards/releases/download/v0.1.1/citation-cards.xpi",
           "applications": {
             "zotero": {
               "strict_min_version": "10.0",

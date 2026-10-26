@@ -18,9 +18,10 @@ var CiteCard = {
 
   async init({ id, version, rootURI }) {
     this.log(`version ${version} starting in Zotero ${Zotero.version}`);
-    // citations.js is injected ahead of content.js, which uses it
-    this._source = await Zotero.File.getContentsFromURLAsync(rootURI + 'citations.js') + '\n'
-      + await Zotero.File.getContentsFromURLAsync(rootURI + 'content.js');
+    // citations.js is injected ahead of content.js, which uses it. Read as resources, since an
+    // installed plugin's files sit inside its .xpi (jar:), which Zotero's HTTP reads can't open.
+    this._source = await Zotero.File.getResourceAsync(rootURI + 'citations.js') + '\n'
+      + await Zotero.File.getResourceAsync(rootURI + 'content.js');
     this._paneID = await Zotero.PreferencePanes.register({
       pluginID: id,
       src: rootURI + 'prefs.xhtml',
