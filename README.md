@@ -2,6 +2,8 @@
 
 Click an in-text citation in Zotero's PDF reader to see the cited paper's title, authors, abstract and links, in a card styled like Google Scholar's PDF Reader. Cards come from Google Scholar when you're signed in to Google inside Zotero, and from [OpenAlex](https://openalex.org) otherwise.
 
+![A citation card open over a paper in Zotero's PDF reader](docs/screenshot.webp)
+
 Requires Zotero 10 or higher.
 
 ## Install
