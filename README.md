@@ -1,28 +1,23 @@
 # Citation Cards for Zotero
 
-Click an in-text citation in Zotero's PDF reader to see the cited paper's title, authors, abstract and links, in a card styled like Google Scholar's PDF Reader. Cards come from Google Scholar when you're signed in to Google inside Zotero, and from [OpenAlex](https://openalex.org) otherwise.
+Citation Cards opens a card with a paper's title, authors, abstract, and links when you click its citation in Zotero's PDF reader, as Google Scholar's PDF Reader does.
 
 ![A citation card open over a paper in Zotero's PDF reader](docs/screenshot.webp)
 
-Requires Zotero 10 or higher.
+Citation Cards runs on Zotero 10 and 11.
 
 ## Install
 
-1. Download `citation-cards.xpi` from the [latest release](https://github.com/shamus-li/zotero-citation-cards/releases/latest).
-2. In Zotero, open **Tools → Plugins**, click the gear icon, choose **Install Plugin From File…** and select the file.
+Download `citation-cards.xpi` from the [latest release](https://github.com/shamus-li/zotero-citation-cards/releases/latest). In Zotero, open Tools → Plugins, click the gear icon, choose Install Plugin From File, and select the download.
 
-## Sign in to Google Scholar
+## Google Scholar and OpenAlex
 
-1. Open **Zotero → Settings** (**Edit → Settings** on Windows and Linux) and choose **Citation Cards**.
-2. Click **Sign in to Google Scholar** and sign in in the window that opens.
-3. Close the window. The page should say **Signed in as** followed by your email.
+Citation Cards uses Google Scholar if you sign in to Google inside Zotero and [OpenAlex](https://openalex.org) otherwise. To sign in, open the Citation Cards page in Zotero's settings and click Sign in to Google Scholar.
 
-## Notes
+Citation Cards switches to OpenAlex for 30 minutes when Google Scholar asks for a CAPTCHA. To return to Google Scholar sooner, click Open Google Scholar on the card, solve the CAPTCHA, and close the window.
 
-- If Google Scholar asks for a CAPTCHA, cards use OpenAlex for 30 minutes. Click **Open Google Scholar** on the card to solve it sooner.
-- Without a key, OpenAlex allows about 100 searches a day. A free key from [openalex.org/settings/api](https://openalex.org/settings/api) raises it to 1,000.
+OpenAlex allows each network about 100 lookups a day. An API key from [openalex.org/settings/api](https://openalex.org/settings/api) raises the limit to about 1,000. Enter the key on the Citation Cards settings page.
 
-## Reporting problems
+## Reporting bugs
 
-In Zotero, choose **Help → Debug Output Logging → Enable**, reproduce the problem, then choose **Help → Debug Output Logging → Submit Debug Output**. [Open an issue](https://github.com/shamus-li/zotero-citation-cards/issues) with the Debug ID Zotero shows.
-
+In Zotero, choose Help → Debug Output Logging → Enable, reproduce the bug, and choose Help → Debug Output Logging → Submit Debug Output. Include the Debug ID in an [issue](https://github.com/shamus-li/zotero-citation-cards/issues).
